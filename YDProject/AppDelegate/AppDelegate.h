@@ -9,6 +9,10 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
+
+// 广告window
+@property (nonatomic, strong) UIWindow *adWindow;
 
 @end
 

@@ -1,0 +1,50 @@
+//
+//  YDProjectPCH.pch
+//  YDProject
+//
+//  Created by 王远东 on 2023/6/5.
+//
+
+#ifndef YDProjectPCH_pch
+#define YDProjectPCH_pch
+
+#define YDAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define DeallocLog      NSLog(@"~~~ %@ dealloc ~~~" , [self class]);
+#ifndef TARGET_IPHONE_SIMULATOR
+#define TARGET_IPHONE_SIMULATOR 0
+#endif
+
+#define printf_console printf
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+//third
+#import <MJRefresh/MJRefresh.h>
+#import "SVProgressHUD.h"
+#import <Bugly/Bugly.h>
+#import <Masonry/Masonry.h>
+#import <YYModel/YYModel.h>
+#import <SDWebImage.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <MMKV/MMKV.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+//src
+#import "YDAppDefine.h"
+
+//YDFoundation
+#import "YDBaseVC.h"
+#import <YDUtilKit/YDUtilKit.h>
+#import <YDNetworkManager/YDNetworkManager.h>
+#import <YDAuthorizationUtil/YDAuthorizationUtil.h>
+#import <YDSVProgressHUD/YDProgressHUD.h>
+#import <YDBlockKit/BlocksKit.h>
+#import <YDAlertAction/YDAlert.h>
+
+#endif
+
+#endif /* YDProjectPCH_pch */
