@@ -61,7 +61,7 @@
 
 /// 登录失败
 - (void)loginOrRegisterFailure {
-    
+    YDLogError(@"登录失败");
 }
 
 /// 登录成功

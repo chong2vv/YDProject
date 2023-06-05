@@ -6,7 +6,10 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "AppDelegate+YDServicePush.h"
+#import "AppDelegate+YDAvoidCrash.h"
+#import "AppDelegate+YDThird.h"
+#import "AppDelegate+YDSetupViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +19,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //注册推送
+    [self registerForRemoteNotifications:application didFinishLaunchingWithOptions:launchOptions];
+    
+    //开启第三方配置，如bugly
+    [self thirdPartyConfig:application];
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     //常规写法，同一界面响应时的排他性
@@ -25,10 +37,8 @@
         [[UITabBar appearance] setTranslucent:NO];
     }
     
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
+    //配置root vc
+    [self configRootVC:application];
     
     return YES;
 }

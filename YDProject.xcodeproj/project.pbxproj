@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		157E27492A2DB50200A84464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27482A2DB50200A84464 /* ViewController.m */; };
+		1568AE002A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
+		1568AE012A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
+		1568AE022A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
+		1568AE062A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
+		1568AE072A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
+		1568AE082A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
 		157E274E2A2DB50400A84464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E274D2A2DB50400A84464 /* Assets.xcassets */; };
 		157E27512A2DB50400A84464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E274F2A2DB50400A84464 /* LaunchScreen.storyboard */; };
 		157E27542A2DB50400A84464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27532A2DB50400A84464 /* main.m */; };
 		157E275E2A2DB50500A84464 /* YDProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E275D2A2DB50500A84464 /* YDProjectTests.m */; };
 		157E27682A2DB50500A84464 /* YDProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27672A2DB50500A84464 /* YDProjectUITests.m */; };
 		157E276A2A2DB50500A84464 /* YDProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27692A2DB50500A84464 /* YDProjectUITestsLaunchTests.m */; };
-		157E27782A2DB5A100A84464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27482A2DB50200A84464 /* ViewController.m */; };
 		157E277A2A2DB5A100A84464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27532A2DB50400A84464 /* main.m */; };
 		157E277E2A2DB5A100A84464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E274F2A2DB50400A84464 /* LaunchScreen.storyboard */; };
 		157E277F2A2DB5A100A84464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E274D2A2DB50400A84464 /* Assets.xcassets */; };
-		157E27882A2DB5AE00A84464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27482A2DB50200A84464 /* ViewController.m */; };
 		157E278A2A2DB5AE00A84464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27532A2DB50400A84464 /* main.m */; };
 		157E278E2A2DB5AE00A84464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E274F2A2DB50400A84464 /* LaunchScreen.storyboard */; };
 		157E278F2A2DB5AE00A84464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E274D2A2DB50400A84464 /* Assets.xcassets */; };
@@ -286,9 +289,13 @@
 
 /* Begin PBXFileReference section */
 		09D98A094D645D9CF47289E6 /* libPods-YDProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568ADFC2A2E2BC600B6ABA0 /* YDProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		1568ADFD2A2E2BC600B6ABA0 /* YDProjectPre-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProjectPre-Bridging-Header.h"; sourceTree = "<group>"; };
+		1568ADFE2A2E2BC600B6ABA0 /* YDProjectDev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProjectDev-Bridging-Header.h"; sourceTree = "<group>"; };
+		1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDSwiftConfig.swift; sourceTree = "<group>"; };
+		1568AE042A2E3B5400B6ABA0 /* YDLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginViewModel.h; sourceTree = "<group>"; };
+		1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginViewModel.m; sourceTree = "<group>"; };
 		157E273E2A2DB50200A84464 /* YDProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		157E27472A2DB50200A84464 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		157E27482A2DB50200A84464 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		157E274D2A2DB50400A84464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157E27502A2DB50400A84464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157E27522A2DB50400A84464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -520,6 +527,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1568ADFB2A2E2B9800B6ABA0 /* YDSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */,
+				1568ADFC2A2E2BC600B6ABA0 /* YDProject-Bridging-Header.h */,
+				1568ADFD2A2E2BC600B6ABA0 /* YDProjectPre-Bridging-Header.h */,
+				1568ADFE2A2E2BC600B6ABA0 /* YDProjectDev-Bridging-Header.h */,
+			);
+			path = YDSwift;
+			sourceTree = "<group>";
+		};
+		1568AE032A2E3B2A00B6ABA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1568AE042A2E3B5400B6ABA0 /* YDLoginViewModel.h */,
+				1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1568AE092A2E3C3400B6ABA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				157E29C02A2DED3700A84464 /* YDUser.h */,
+				157E29BF2A2DED3700A84464 /* YDUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		157E27352A2DB50200A84464 = {
 			isa = PBXGroup;
 			children = (
@@ -552,8 +588,6 @@
 				157E28BF2A2DE7D900A84464 /* YDConfig */,
 				157E28992A2DE7D900A84464 /* YDService */,
 				157E28C62A2DE7DA00A84464 /* YDVendors */,
-				157E27472A2DB50200A84464 /* ViewController.h */,
-				157E27482A2DB50200A84464 /* ViewController.m */,
 				157E274D2A2DB50400A84464 /* Assets.xcassets */,
 				157E274F2A2DB50400A84464 /* LaunchScreen.storyboard */,
 				157E27522A2DB50400A84464 /* Info.plist */,
@@ -690,6 +724,7 @@
 		157E28BF2A2DE7D900A84464 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				1568ADFB2A2E2B9800B6ABA0 /* YDSwift */,
 				157E29A32A2DEC7500A84464 /* YDNetworkConfig */,
 				157E29A82A2DEC7500A84464 /* YDConst */,
 				157E29A02A2DEC7500A84464 /* YDUIConfig */,
@@ -984,6 +1019,8 @@
 		157E29B52A2DED3700A84464 /* YDLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1568AE092A2E3C3400B6ABA0 /* Model */,
+				1568AE032A2E3B2A00B6ABA0 /* ViewModel */,
 				157E29B62A2DED3700A84464 /* App */,
 				157E29BC2A2DED3700A84464 /* UserConfig */,
 				157E29CB2A2DED3700A84464 /* VC */,
@@ -1018,8 +1055,6 @@
 		157E29BE2A2DED3700A84464 /* YDUserModel */ = {
 			isa = PBXGroup;
 			children = (
-				157E29C02A2DED3700A84464 /* YDUser.h */,
-				157E29BF2A2DED3700A84464 /* YDUser.m */,
 			);
 			path = YDUserModel;
 			sourceTree = "<group>";
@@ -1042,8 +1077,8 @@
 		157E29CB2A2DED3700A84464 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				157E29CC2A2DED3700A84464 /* YDLoginViewController.m */,
 				157E29CD2A2DED3700A84464 /* YDLoginViewController.h */,
+				157E29CC2A2DED3700A84464 /* YDLoginViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1372,6 +1407,7 @@
 				TargetAttributes = {
 					157E273D2A2DB50200A84464 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					157E27582A2DB50500A84464 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -1380,6 +1416,12 @@
 					157E27622A2DB50500A84464 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 157E273D2A2DB50200A84464;
+					};
+					157E27762A2DB5A100A84464 = {
+						LastSwiftMigration = 1430;
+					};
+					157E27862A2DB5AE00A84464 = {
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -1650,8 +1692,8 @@
 				157E2A032A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296A2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A212A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
-				157E27492A2DB50200A84464 /* ViewController.m in Sources */,
 				157E29222A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
+				1568AE002A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */,
 				157E29402A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
 				157E2A732A2DF9CA00A84464 /* YDAppWeb.m in Sources */,
 				157E2A392A2DED3800A84464 /* YDUserViewController.m in Sources */,
@@ -1699,6 +1741,7 @@
 				157E2A5A2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E2A662A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29822A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
+				1568AE062A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
 				157E291F2A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
 				157E2A512A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291C2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
@@ -1752,8 +1795,8 @@
 				157E2A052A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296C2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A232A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
-				157E27782A2DB5A100A84464 /* ViewController.m in Sources */,
 				157E29242A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
+				1568AE022A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */,
 				157E29422A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
 				157E2A752A2DF9CA00A84464 /* YDAppWeb.m in Sources */,
 				157E2A3B2A2DED3800A84464 /* YDUserViewController.m in Sources */,
@@ -1801,6 +1844,7 @@
 				157E2A5C2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E2A682A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29842A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
+				1568AE082A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
 				157E29212A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
 				157E2A532A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291E2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
@@ -1837,8 +1881,8 @@
 				157E2A042A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296B2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A222A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
-				157E27882A2DB5AE00A84464 /* ViewController.m in Sources */,
 				157E29232A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
+				1568AE012A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */,
 				157E29412A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
 				157E2A742A2DF9CA00A84464 /* YDAppWeb.m in Sources */,
 				157E2A3A2A2DED3800A84464 /* YDUserViewController.m in Sources */,
@@ -1886,6 +1930,7 @@
 				157E2A5B2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E2A672A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29832A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
+				1568AE072A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
 				157E29202A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
 				157E2A522A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291D2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
@@ -2050,6 +2095,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2074,6 +2120,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2084,6 +2133,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2108,6 +2158,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProject-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2115,6 +2167,7 @@
 		157E27712A2DB50500A84464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2133,6 +2186,7 @@
 		157E27722A2DB50500A84464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2151,6 +2205,7 @@
 		157E27742A2DB50500A84464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2167,6 +2222,7 @@
 		157E27752A2DB50500A84464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2186,6 +2242,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2209,6 +2266,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProjectDev-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2219,6 +2279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2242,6 +2303,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProjectDev-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2252,6 +2315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2275,6 +2339,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProjectPre-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2285,6 +2352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
@@ -2308,6 +2376,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.YDProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDConfig/YDSwift/YDProjectPre-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
