@@ -151,6 +151,102 @@
 		157E299D2A2DE7DB00A84464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29182A2DE7DA00A84464 /* AppDelegate.m */; };
 		157E299E2A2DE7DB00A84464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29182A2DE7DA00A84464 /* AppDelegate.m */; };
 		157E299F2A2DE7DB00A84464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29182A2DE7DA00A84464 /* AppDelegate.m */; };
+		157E29AB2A2DEC7500A84464 /* YDUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A12A2DEC7500A84464 /* YDUIConfig.m */; };
+		157E29AC2A2DEC7500A84464 /* YDUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A12A2DEC7500A84464 /* YDUIConfig.m */; };
+		157E29AD2A2DEC7500A84464 /* YDUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A12A2DEC7500A84464 /* YDUIConfig.m */; };
+		157E29AE2A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A52A2DEC7500A84464 /* YDNetWorkConfig.m */; };
+		157E29AF2A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A52A2DEC7500A84464 /* YDNetWorkConfig.m */; };
+		157E29B02A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A52A2DEC7500A84464 /* YDNetWorkConfig.m */; };
+		157E29B12A2DEC7500A84464 /* YDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A92A2DEC7500A84464 /* YDConst.m */; };
+		157E29B22A2DEC7500A84464 /* YDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A92A2DEC7500A84464 /* YDConst.m */; };
+		157E29B32A2DEC7500A84464 /* YDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29A92A2DEC7500A84464 /* YDConst.m */; };
+		157E29FA2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B72A2DED3700A84464 /* YDMediator+YDLogin.m */; };
+		157E29FB2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B72A2DED3700A84464 /* YDMediator+YDLogin.m */; };
+		157E29FC2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B72A2DED3700A84464 /* YDMediator+YDLogin.m */; };
+		157E29FD2A2DED3800A84464 /* YDAppLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B82A2DED3700A84464 /* YDAppLogin.m */; };
+		157E29FE2A2DED3800A84464 /* YDAppLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B82A2DED3700A84464 /* YDAppLogin.m */; };
+		157E29FF2A2DED3800A84464 /* YDAppLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29B82A2DED3700A84464 /* YDAppLogin.m */; };
+		157E2A002A2DED3800A84464 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29BF2A2DED3700A84464 /* YDUser.m */; };
+		157E2A012A2DED3800A84464 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29BF2A2DED3700A84464 /* YDUser.m */; };
+		157E2A022A2DED3800A84464 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29BF2A2DED3700A84464 /* YDUser.m */; };
+		157E2A032A2DED3800A84464 /* YDUserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C12A2DED3700A84464 /* YDUserConfig.m */; };
+		157E2A042A2DED3800A84464 /* YDUserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C12A2DED3700A84464 /* YDUserConfig.m */; };
+		157E2A052A2DED3800A84464 /* YDUserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C12A2DED3700A84464 /* YDUserConfig.m */; };
+		157E2A062A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C32A2DED3700A84464 /* YDUserInfoUpdateCommand.m */; };
+		157E2A072A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C32A2DED3700A84464 /* YDUserInfoUpdateCommand.m */; };
+		157E2A082A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C32A2DED3700A84464 /* YDUserInfoUpdateCommand.m */; };
+		157E2A092A2DED3800A84464 /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C52A2DED3700A84464 /* YDRegisterCommand.m */; };
+		157E2A0A2A2DED3800A84464 /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C52A2DED3700A84464 /* YDRegisterCommand.m */; };
+		157E2A0B2A2DED3800A84464 /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C52A2DED3700A84464 /* YDRegisterCommand.m */; };
+		157E2A0C2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C72A2DED3700A84464 /* YDSendCodeCommand.m */; };
+		157E2A0D2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C72A2DED3700A84464 /* YDSendCodeCommand.m */; };
+		157E2A0E2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C72A2DED3700A84464 /* YDSendCodeCommand.m */; };
+		157E2A0F2A2DED3800A84464 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C92A2DED3700A84464 /* YDLoginCommand.m */; };
+		157E2A102A2DED3800A84464 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C92A2DED3700A84464 /* YDLoginCommand.m */; };
+		157E2A112A2DED3800A84464 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29C92A2DED3700A84464 /* YDLoginCommand.m */; };
+		157E2A122A2DED3800A84464 /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CC2A2DED3700A84464 /* YDLoginViewController.m */; };
+		157E2A132A2DED3800A84464 /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CC2A2DED3700A84464 /* YDLoginViewController.m */; };
+		157E2A142A2DED3800A84464 /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CC2A2DED3700A84464 /* YDLoginViewController.m */; };
+		157E2A152A2DED3800A84464 /* YDLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CF2A2DED3700A84464 /* YDLoginService.m */; };
+		157E2A162A2DED3800A84464 /* YDLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CF2A2DED3700A84464 /* YDLoginService.m */; };
+		157E2A172A2DED3800A84464 /* YDLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29CF2A2DED3700A84464 /* YDLoginService.m */; };
+		157E2A182A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D32A2DED3700A84464 /* YDLaunchScreenViewModel.m */; };
+		157E2A192A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D32A2DED3700A84464 /* YDLaunchScreenViewModel.m */; };
+		157E2A1A2A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D32A2DED3700A84464 /* YDLaunchScreenViewModel.m */; };
+		157E2A1B2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D62A2DED3700A84464 /* YDLaunchScreenViewController.m */; };
+		157E2A1C2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D62A2DED3700A84464 /* YDLaunchScreenViewController.m */; };
+		157E2A1D2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29D62A2DED3700A84464 /* YDLaunchScreenViewController.m */; };
+		157E2A1E2A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DA2A2DED3700A84464 /* YDLaunchScreenModel.m */; };
+		157E2A1F2A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DA2A2DED3700A84464 /* YDLaunchScreenModel.m */; };
+		157E2A202A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DA2A2DED3700A84464 /* YDLaunchScreenModel.m */; };
+		157E2A212A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DC2A2DED3700A84464 /* YDLaunchScreenCommand.m */; };
+		157E2A222A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DC2A2DED3700A84464 /* YDLaunchScreenCommand.m */; };
+		157E2A232A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29DC2A2DED3700A84464 /* YDLaunchScreenCommand.m */; };
+		157E2A242A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E02A2DED3700A84464 /* YDHiddenFunctionViewController.m */; };
+		157E2A252A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E02A2DED3700A84464 /* YDHiddenFunctionViewController.m */; };
+		157E2A262A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E02A2DED3700A84464 /* YDHiddenFunctionViewController.m */; };
+		157E2A272A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E52A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.m */; };
+		157E2A282A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E52A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.m */; };
+		157E2A292A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E52A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.m */; };
+		157E2A2A2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E62A2DED3700A84464 /* YDHiddenFunctionPasswordView.m */; };
+		157E2A2B2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E62A2DED3700A84464 /* YDHiddenFunctionPasswordView.m */; };
+		157E2A2C2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29E62A2DED3700A84464 /* YDHiddenFunctionPasswordView.m */; };
+		157E2A2D2A2DED3800A84464 /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EA2A2DED3700A84464 /* YDMineViewController.m */; };
+		157E2A2E2A2DED3800A84464 /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EA2A2DED3700A84464 /* YDMineViewController.m */; };
+		157E2A2F2A2DED3800A84464 /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EA2A2DED3700A84464 /* YDMineViewController.m */; };
+		157E2A302A2DED3800A84464 /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29EB2A2DED3700A84464 /* YDMineAsset.xcassets */; };
+		157E2A312A2DED3800A84464 /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29EB2A2DED3700A84464 /* YDMineAsset.xcassets */; };
+		157E2A322A2DED3800A84464 /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29EB2A2DED3700A84464 /* YDMineAsset.xcassets */; };
+		157E2A332A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29ED2A2DED3800A84464 /* YDHomePageAsset.xcassets */; };
+		157E2A342A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29ED2A2DED3800A84464 /* YDHomePageAsset.xcassets */; };
+		157E2A352A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E29ED2A2DED3800A84464 /* YDHomePageAsset.xcassets */; };
+		157E2A362A2DED3800A84464 /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EF2A2DED3800A84464 /* YDHomePageViewController.m */; };
+		157E2A372A2DED3800A84464 /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EF2A2DED3800A84464 /* YDHomePageViewController.m */; };
+		157E2A382A2DED3800A84464 /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29EF2A2DED3800A84464 /* YDHomePageViewController.m */; };
+		157E2A392A2DED3800A84464 /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F62A2DED3800A84464 /* YDUserViewController.m */; };
+		157E2A3A2A2DED3800A84464 /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F62A2DED3800A84464 /* YDUserViewController.m */; };
+		157E2A3B2A2DED3800A84464 /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F62A2DED3800A84464 /* YDUserViewController.m */; };
+		157E2A3C2A2DED3800A84464 /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F92A2DED3800A84464 /* YDUserShowService.m */; };
+		157E2A3D2A2DED3800A84464 /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F92A2DED3800A84464 /* YDUserShowService.m */; };
+		157E2A3E2A2DED3800A84464 /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E29F92A2DED3800A84464 /* YDUserShowService.m */; };
+		157E2A442A2DEE0400A84464 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A412A2DEE0400A84464 /* YDDB+YDUser.m */; };
+		157E2A452A2DEE0400A84464 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A412A2DEE0400A84464 /* YDDB+YDUser.m */; };
+		157E2A462A2DEE0400A84464 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A412A2DEE0400A84464 /* YDDB+YDUser.m */; };
+		157E2A472A2DEE0400A84464 /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A432A2DEE0400A84464 /* YDDB.m */; };
+		157E2A482A2DEE0400A84464 /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A432A2DEE0400A84464 /* YDDB.m */; };
+		157E2A492A2DEE0400A84464 /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A432A2DEE0400A84464 /* YDDB.m */; };
+		157E2A512A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4A2A2DEE7E00A84464 /* AppDelegate+YDThird.m */; };
+		157E2A522A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4A2A2DEE7E00A84464 /* AppDelegate+YDThird.m */; };
+		157E2A532A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4A2A2DEE7E00A84464 /* AppDelegate+YDThird.m */; };
+		157E2A542A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E2A4B2A2DEE7E00A84464 /* YDConfigImage.xcassets */; };
+		157E2A552A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E2A4B2A2DEE7E00A84464 /* YDConfigImage.xcassets */; };
+		157E2A562A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E2A4B2A2DEE7E00A84464 /* YDConfigImage.xcassets */; };
+		157E2A572A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4D2A2DEE7E00A84464 /* AppDelegate+YDServicePush.m */; };
+		157E2A582A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4D2A2DEE7E00A84464 /* AppDelegate+YDServicePush.m */; };
+		157E2A592A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A4D2A2DEE7E00A84464 /* AppDelegate+YDServicePush.m */; };
+		157E2A5A2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A502A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m */; };
+		157E2A5B2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A502A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m */; };
+		157E2A5C2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A502A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m */; };
 		501FA7BF665BBA8725B3F00D /* libPods-YDProjectDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6ED85608FC6B9C5941C37 /* libPods-YDProjectDev.a */; };
 		5D567DD971058C12C073300A /* libPods-YDProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D98A094D645D9CF47289E6 /* libPods-YDProject.a */; };
 		DF56CD53FFD69F0127B98DD8 /* libPods-YDProjectPre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBA21C4A20250BBA40F54B /* libPods-YDProjectPre.a */; };
@@ -282,6 +378,70 @@
 		157E29162A2DE7DA00A84464 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		157E29172A2DE7DA00A84464 /* AppDelegate+YDSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDSetupViewController.h"; sourceTree = "<group>"; };
 		157E29182A2DE7DA00A84464 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		157E29A12A2DEC7500A84464 /* YDUIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUIConfig.m; sourceTree = "<group>"; };
+		157E29A22A2DEC7500A84464 /* YDUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUIConfig.h; sourceTree = "<group>"; };
+		157E29A42A2DEC7500A84464 /* YDNetWorkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetWorkConfig.h; sourceTree = "<group>"; };
+		157E29A52A2DEC7500A84464 /* YDNetWorkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNetWorkConfig.m; sourceTree = "<group>"; };
+		157E29A72A2DEC7500A84464 /* YDUtilBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUtilBlock.h; sourceTree = "<group>"; };
+		157E29A92A2DEC7500A84464 /* YDConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDConst.m; sourceTree = "<group>"; };
+		157E29AA2A2DEC7500A84464 /* YDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDConst.h; sourceTree = "<group>"; };
+		157E29B72A2DED3700A84464 /* YDMediator+YDLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDMediator+YDLogin.m"; sourceTree = "<group>"; };
+		157E29B82A2DED3700A84464 /* YDAppLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppLogin.m; sourceTree = "<group>"; };
+		157E29B92A2DED3700A84464 /* YDMediator+YDLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDMediator+YDLogin.h"; sourceTree = "<group>"; };
+		157E29BA2A2DED3700A84464 /* YDAppLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAppLogin.h; sourceTree = "<group>"; };
+		157E29BB2A2DED3700A84464 /* YDLoginConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoginConfig.h; sourceTree = "<group>"; };
+		157E29BD2A2DED3700A84464 /* YDUserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUserConfig.h; sourceTree = "<group>"; };
+		157E29BF2A2DED3700A84464 /* YDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUser.m; sourceTree = "<group>"; };
+		157E29C02A2DED3700A84464 /* YDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUser.h; sourceTree = "<group>"; };
+		157E29C12A2DED3700A84464 /* YDUserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUserConfig.m; sourceTree = "<group>"; };
+		157E29C32A2DED3700A84464 /* YDUserInfoUpdateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUserInfoUpdateCommand.m; sourceTree = "<group>"; };
+		157E29C42A2DED3700A84464 /* YDSendCodeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSendCodeCommand.h; sourceTree = "<group>"; };
+		157E29C52A2DED3700A84464 /* YDRegisterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRegisterCommand.m; sourceTree = "<group>"; };
+		157E29C62A2DED3700A84464 /* YDLoginCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoginCommand.h; sourceTree = "<group>"; };
+		157E29C72A2DED3700A84464 /* YDSendCodeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSendCodeCommand.m; sourceTree = "<group>"; };
+		157E29C82A2DED3700A84464 /* YDUserInfoUpdateCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUserInfoUpdateCommand.h; sourceTree = "<group>"; };
+		157E29C92A2DED3700A84464 /* YDLoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoginCommand.m; sourceTree = "<group>"; };
+		157E29CA2A2DED3700A84464 /* YDRegisterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRegisterCommand.h; sourceTree = "<group>"; };
+		157E29CC2A2DED3700A84464 /* YDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoginViewController.m; sourceTree = "<group>"; };
+		157E29CD2A2DED3700A84464 /* YDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoginViewController.h; sourceTree = "<group>"; };
+		157E29CF2A2DED3700A84464 /* YDLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoginService.m; sourceTree = "<group>"; };
+		157E29D02A2DED3700A84464 /* YDLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoginService.h; sourceTree = "<group>"; };
+		157E29D32A2DED3700A84464 /* YDLaunchScreenViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenViewModel.m; sourceTree = "<group>"; };
+		157E29D42A2DED3700A84464 /* YDLaunchScreenViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenViewModel.h; sourceTree = "<group>"; };
+		157E29D62A2DED3700A84464 /* YDLaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		157E29D72A2DED3700A84464 /* YDLaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenViewController.h; sourceTree = "<group>"; };
+		157E29D92A2DED3700A84464 /* YDLaunchScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenModel.h; sourceTree = "<group>"; };
+		157E29DA2A2DED3700A84464 /* YDLaunchScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenModel.m; sourceTree = "<group>"; };
+		157E29DC2A2DED3700A84464 /* YDLaunchScreenCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenCommand.m; sourceTree = "<group>"; };
+		157E29DD2A2DED3700A84464 /* YDLaunchScreenCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenCommand.h; sourceTree = "<group>"; };
+		157E29E02A2DED3700A84464 /* YDHiddenFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionViewController.m; sourceTree = "<group>"; };
+		157E29E12A2DED3700A84464 /* YDHiddenFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionViewController.h; sourceTree = "<group>"; };
+		157E29E32A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordInputView.h; sourceTree = "<group>"; };
+		157E29E42A2DED3700A84464 /* YDHiddenFunctionPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordView.h; sourceTree = "<group>"; };
+		157E29E52A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordInputView.m; sourceTree = "<group>"; };
+		157E29E62A2DED3700A84464 /* YDHiddenFunctionPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordView.m; sourceTree = "<group>"; };
+		157E29E92A2DED3700A84464 /* YDMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMineViewController.h; sourceTree = "<group>"; };
+		157E29EA2A2DED3700A84464 /* YDMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMineViewController.m; sourceTree = "<group>"; };
+		157E29EB2A2DED3700A84464 /* YDMineAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDMineAsset.xcassets; sourceTree = "<group>"; };
+		157E29ED2A2DED3800A84464 /* YDHomePageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDHomePageAsset.xcassets; sourceTree = "<group>"; };
+		157E29EF2A2DED3800A84464 /* YDHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHomePageViewController.m; sourceTree = "<group>"; };
+		157E29F02A2DED3800A84464 /* YDHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHomePageViewController.h; sourceTree = "<group>"; };
+		157E29F32A2DED3800A84464 /* YDUserShowConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUserShowConfig.h; sourceTree = "<group>"; };
+		157E29F52A2DED3800A84464 /* YDUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUserViewController.h; sourceTree = "<group>"; };
+		157E29F62A2DED3800A84464 /* YDUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUserViewController.m; sourceTree = "<group>"; };
+		157E29F82A2DED3800A84464 /* YDUserShowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUserShowService.h; sourceTree = "<group>"; };
+		157E29F92A2DED3800A84464 /* YDUserShowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUserShowService.m; sourceTree = "<group>"; };
+		157E2A402A2DEE0400A84464 /* YDDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDDB.h; sourceTree = "<group>"; };
+		157E2A412A2DEE0400A84464 /* YDDB+YDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDDB+YDUser.m"; sourceTree = "<group>"; };
+		157E2A422A2DEE0400A84464 /* YDDB+YDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDDB+YDUser.h"; sourceTree = "<group>"; };
+		157E2A432A2DEE0400A84464 /* YDDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDDB.m; sourceTree = "<group>"; };
+		157E2A4A2A2DEE7E00A84464 /* AppDelegate+YDThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDThird.m"; sourceTree = "<group>"; };
+		157E2A4B2A2DEE7E00A84464 /* YDConfigImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDConfigImage.xcassets; sourceTree = "<group>"; };
+		157E2A4C2A2DEE7E00A84464 /* AppDelegate+YDThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDThird.h"; sourceTree = "<group>"; };
+		157E2A4D2A2DEE7E00A84464 /* AppDelegate+YDServicePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDServicePush.m"; sourceTree = "<group>"; };
+		157E2A4E2A2DEE7E00A84464 /* AppDelegate+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDAvoidCrash.h"; sourceTree = "<group>"; };
+		157E2A4F2A2DEE7F00A84464 /* AppDelegate+YDServicePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDServicePush.h"; sourceTree = "<group>"; };
+		157E2A502A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDAvoidCrash.m"; sourceTree = "<group>"; };
 		34330F0FDB00081C9709B574 /* Pods-YDProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.debug.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.debug.xcconfig"; sourceTree = "<group>"; };
 		70840FBC284F84DAFFAC33F9 /* Pods-YDProjectDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProjectDev.release.xcconfig"; path = "Target Support Files/Pods-YDProjectDev/Pods-YDProjectDev.release.xcconfig"; sourceTree = "<group>"; };
 		716CC34CB2C213B26F8772A2 /* Pods-YDProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.release.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -361,6 +521,7 @@
 		157E27402A2DB50200A84464 /* YDProject */ = {
 			isa = PBXGroup;
 			children = (
+				157E29B42A2DED0400A84464 /* Module */,
 				157E29142A2DE7DA00A84464 /* AppDelegate */,
 				157E28BF2A2DE7D900A84464 /* YDConfig */,
 				157E28992A2DE7D900A84464 /* YDService */,
@@ -397,6 +558,7 @@
 			children = (
 				157E28BE2A2DE7D900A84464 /* YDContainer.h */,
 				157E28A82A2DE7D900A84464 /* YDContainer.m */,
+				157E2A3F2A2DEDDD00A84464 /* YDDB */,
 				157E289A2A2DE7D900A84464 /* YDAppCheckUpdateService */,
 				157E28A92A2DE7D900A84464 /* YDArouter */,
 				157E28AE2A2DE7D900A84464 /* YDBack */,
@@ -450,10 +612,10 @@
 		157E28A92A2DE7D900A84464 /* YDArouter */ = {
 			isa = PBXGroup;
 			children = (
-				157E28AA2A2DE7D900A84464 /* YDRouter+YDRegistConfig.h */,
-				157E28AB2A2DE7D900A84464 /* YDMainRouterHandle.m */,
-				157E28AC2A2DE7D900A84464 /* YDRouter+YDRegistConfig.m */,
 				157E28AD2A2DE7D900A84464 /* YDMainRouterHandle.h */,
+				157E28AB2A2DE7D900A84464 /* YDMainRouterHandle.m */,
+				157E28AA2A2DE7D900A84464 /* YDRouter+YDRegistConfig.h */,
+				157E28AC2A2DE7D900A84464 /* YDRouter+YDRegistConfig.m */,
 			);
 			path = YDArouter;
 			sourceTree = "<group>";
@@ -502,6 +664,10 @@
 		157E28BF2A2DE7D900A84464 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				157E29A32A2DEC7500A84464 /* YDNetworkConfig */,
+				157E29A82A2DEC7500A84464 /* YDConst */,
+				157E29A02A2DEC7500A84464 /* YDUIConfig */,
+				157E29A62A2DEC7500A84464 /* YDUtilBlock */,
 				157E28C02A2DE7DA00A84464 /* YDTargestDeploy */,
 			);
 			path = YDConfig;
@@ -721,12 +887,302 @@
 		157E29142A2DE7DA00A84464 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				157E29152A2DE7DA00A84464 /* AppDelegate+YDSetupViewController.m */,
 				157E29162A2DE7DA00A84464 /* AppDelegate.h */,
-				157E29172A2DE7DA00A84464 /* AppDelegate+YDSetupViewController.h */,
 				157E29182A2DE7DA00A84464 /* AppDelegate.m */,
+				157E2A4E2A2DEE7E00A84464 /* AppDelegate+YDAvoidCrash.h */,
+				157E2A502A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m */,
+				157E2A4F2A2DEE7F00A84464 /* AppDelegate+YDServicePush.h */,
+				157E2A4D2A2DEE7E00A84464 /* AppDelegate+YDServicePush.m */,
+				157E29172A2DE7DA00A84464 /* AppDelegate+YDSetupViewController.h */,
+				157E29152A2DE7DA00A84464 /* AppDelegate+YDSetupViewController.m */,
+				157E2A4C2A2DEE7E00A84464 /* AppDelegate+YDThird.h */,
+				157E2A4A2A2DEE7E00A84464 /* AppDelegate+YDThird.m */,
+				157E2A4B2A2DEE7E00A84464 /* YDConfigImage.xcassets */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		157E29A02A2DEC7500A84464 /* YDUIConfig */ = {
+			isa = PBXGroup;
+			children = (
+				157E29A22A2DEC7500A84464 /* YDUIConfig.h */,
+				157E29A12A2DEC7500A84464 /* YDUIConfig.m */,
+			);
+			path = YDUIConfig;
+			sourceTree = "<group>";
+		};
+		157E29A32A2DEC7500A84464 /* YDNetworkConfig */ = {
+			isa = PBXGroup;
+			children = (
+				157E29A42A2DEC7500A84464 /* YDNetWorkConfig.h */,
+				157E29A52A2DEC7500A84464 /* YDNetWorkConfig.m */,
+			);
+			path = YDNetworkConfig;
+			sourceTree = "<group>";
+		};
+		157E29A62A2DEC7500A84464 /* YDUtilBlock */ = {
+			isa = PBXGroup;
+			children = (
+				157E29A72A2DEC7500A84464 /* YDUtilBlock.h */,
+			);
+			path = YDUtilBlock;
+			sourceTree = "<group>";
+		};
+		157E29A82A2DEC7500A84464 /* YDConst */ = {
+			isa = PBXGroup;
+			children = (
+				157E29AA2A2DEC7500A84464 /* YDConst.h */,
+				157E29A92A2DEC7500A84464 /* YDConst.m */,
+			);
+			path = YDConst;
+			sourceTree = "<group>";
+		};
+		157E29B42A2DED0400A84464 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				157E29DE2A2DED3700A84464 /* YDHiddenFunction */,
+				157E29EC2A2DED3800A84464 /* YDHomePage */,
+				157E29D12A2DED3700A84464 /* YDLaunchScreen */,
+				157E29B52A2DED3700A84464 /* YDLogin */,
+				157E29E72A2DED3700A84464 /* YDMine */,
+				157E29F12A2DED3800A84464 /* YDUserShow */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		157E29B52A2DED3700A84464 /* YDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				157E29B62A2DED3700A84464 /* App */,
+				157E29BC2A2DED3700A84464 /* UserConfig */,
+				157E29CB2A2DED3700A84464 /* VC */,
+				157E29CE2A2DED3700A84464 /* Service */,
+			);
+			path = YDLogin;
+			sourceTree = "<group>";
+		};
+		157E29B62A2DED3700A84464 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				157E29BB2A2DED3700A84464 /* YDLoginConfig.h */,
+				157E29BA2A2DED3700A84464 /* YDAppLogin.h */,
+				157E29B82A2DED3700A84464 /* YDAppLogin.m */,
+				157E29B92A2DED3700A84464 /* YDMediator+YDLogin.h */,
+				157E29B72A2DED3700A84464 /* YDMediator+YDLogin.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		157E29BC2A2DED3700A84464 /* UserConfig */ = {
+			isa = PBXGroup;
+			children = (
+				157E29C22A2DED3700A84464 /* Command */,
+				157E29BD2A2DED3700A84464 /* YDUserConfig.h */,
+				157E29C12A2DED3700A84464 /* YDUserConfig.m */,
+				157E29BE2A2DED3700A84464 /* YDUserModel */,
+			);
+			path = UserConfig;
+			sourceTree = "<group>";
+		};
+		157E29BE2A2DED3700A84464 /* YDUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				157E29C02A2DED3700A84464 /* YDUser.h */,
+				157E29BF2A2DED3700A84464 /* YDUser.m */,
+			);
+			path = YDUserModel;
+			sourceTree = "<group>";
+		};
+		157E29C22A2DED3700A84464 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				157E29C62A2DED3700A84464 /* YDLoginCommand.h */,
+				157E29C92A2DED3700A84464 /* YDLoginCommand.m */,
+				157E29CA2A2DED3700A84464 /* YDRegisterCommand.h */,
+				157E29C52A2DED3700A84464 /* YDRegisterCommand.m */,
+				157E29C42A2DED3700A84464 /* YDSendCodeCommand.h */,
+				157E29C72A2DED3700A84464 /* YDSendCodeCommand.m */,
+				157E29C82A2DED3700A84464 /* YDUserInfoUpdateCommand.h */,
+				157E29C32A2DED3700A84464 /* YDUserInfoUpdateCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		157E29CB2A2DED3700A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29CC2A2DED3700A84464 /* YDLoginViewController.m */,
+				157E29CD2A2DED3700A84464 /* YDLoginViewController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29CE2A2DED3700A84464 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				157E29D02A2DED3700A84464 /* YDLoginService.h */,
+				157E29CF2A2DED3700A84464 /* YDLoginService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		157E29D12A2DED3700A84464 /* YDLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				157E29D22A2DED3700A84464 /* ViewModel */,
+				157E29D52A2DED3700A84464 /* VC */,
+				157E29D82A2DED3700A84464 /* Model */,
+				157E29DB2A2DED3700A84464 /* Command */,
+			);
+			path = YDLaunchScreen;
+			sourceTree = "<group>";
+		};
+		157E29D22A2DED3700A84464 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				157E29D42A2DED3700A84464 /* YDLaunchScreenViewModel.h */,
+				157E29D32A2DED3700A84464 /* YDLaunchScreenViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		157E29D52A2DED3700A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29D72A2DED3700A84464 /* YDLaunchScreenViewController.h */,
+				157E29D62A2DED3700A84464 /* YDLaunchScreenViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29D82A2DED3700A84464 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				157E29D92A2DED3700A84464 /* YDLaunchScreenModel.h */,
+				157E29DA2A2DED3700A84464 /* YDLaunchScreenModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		157E29DB2A2DED3700A84464 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				157E29DD2A2DED3700A84464 /* YDLaunchScreenCommand.h */,
+				157E29DC2A2DED3700A84464 /* YDLaunchScreenCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		157E29DE2A2DED3700A84464 /* YDHiddenFunction */ = {
+			isa = PBXGroup;
+			children = (
+				157E29DF2A2DED3700A84464 /* VC */,
+				157E29E22A2DED3700A84464 /* VIew */,
+			);
+			path = YDHiddenFunction;
+			sourceTree = "<group>";
+		};
+		157E29DF2A2DED3700A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29E12A2DED3700A84464 /* YDHiddenFunctionViewController.h */,
+				157E29E02A2DED3700A84464 /* YDHiddenFunctionViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29E22A2DED3700A84464 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				157E29E32A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.h */,
+				157E29E52A2DED3700A84464 /* YDHiddenFunctionPasswordInputView.m */,
+				157E29E42A2DED3700A84464 /* YDHiddenFunctionPasswordView.h */,
+				157E29E62A2DED3700A84464 /* YDHiddenFunctionPasswordView.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		157E29E72A2DED3700A84464 /* YDMine */ = {
+			isa = PBXGroup;
+			children = (
+				157E29E82A2DED3700A84464 /* VC */,
+				157E29EB2A2DED3700A84464 /* YDMineAsset.xcassets */,
+			);
+			path = YDMine;
+			sourceTree = "<group>";
+		};
+		157E29E82A2DED3700A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29E92A2DED3700A84464 /* YDMineViewController.h */,
+				157E29EA2A2DED3700A84464 /* YDMineViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29EC2A2DED3800A84464 /* YDHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				157E29ED2A2DED3800A84464 /* YDHomePageAsset.xcassets */,
+				157E29EE2A2DED3800A84464 /* VC */,
+			);
+			path = YDHomePage;
+			sourceTree = "<group>";
+		};
+		157E29EE2A2DED3800A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29F02A2DED3800A84464 /* YDHomePageViewController.h */,
+				157E29EF2A2DED3800A84464 /* YDHomePageViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29F12A2DED3800A84464 /* YDUserShow */ = {
+			isa = PBXGroup;
+			children = (
+				157E29F22A2DED3800A84464 /* App */,
+				157E29F42A2DED3800A84464 /* VC */,
+				157E29F72A2DED3800A84464 /* Service */,
+			);
+			path = YDUserShow;
+			sourceTree = "<group>";
+		};
+		157E29F22A2DED3800A84464 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				157E29F32A2DED3800A84464 /* YDUserShowConfig.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		157E29F42A2DED3800A84464 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				157E29F52A2DED3800A84464 /* YDUserViewController.h */,
+				157E29F62A2DED3800A84464 /* YDUserViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		157E29F72A2DED3800A84464 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				157E29F82A2DED3800A84464 /* YDUserShowService.h */,
+				157E29F92A2DED3800A84464 /* YDUserShowService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		157E2A3F2A2DEDDD00A84464 /* YDDB */ = {
+			isa = PBXGroup;
+			children = (
+				157E2A402A2DEE0400A84464 /* YDDB.h */,
+				157E2A432A2DEE0400A84464 /* YDDB.m */,
+				157E2A422A2DEE0400A84464 /* YDDB+YDUser.h */,
+				157E2A412A2DEE0400A84464 /* YDDB+YDUser.m */,
+			);
+			path = YDDB;
 			sourceTree = "<group>";
 		};
 		B96A317E055BA4C99AA828AC /* Frameworks */ = {
@@ -901,8 +1357,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A332A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */,
 				157E27512A2DB50400A84464 /* LaunchScreen.storyboard in Resources */,
 				157E274E2A2DB50400A84464 /* Assets.xcassets in Resources */,
+				157E2A302A2DED3800A84464 /* YDMineAsset.xcassets in Resources */,
+				157E2A542A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */,
 				157E295B2A2DE7DA00A84464 /* YDEmptyAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,8 +1384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A352A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */,
 				157E277E2A2DB5A100A84464 /* LaunchScreen.storyboard in Resources */,
 				157E277F2A2DB5A100A84464 /* Assets.xcassets in Resources */,
+				157E2A322A2DED3800A84464 /* YDMineAsset.xcassets in Resources */,
+				157E2A562A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */,
 				157E295D2A2DE7DA00A84464 /* YDEmptyAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -935,8 +1397,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A342A2DED3800A84464 /* YDHomePageAsset.xcassets in Resources */,
 				157E278E2A2DB5AE00A84464 /* LaunchScreen.storyboard in Resources */,
 				157E278F2A2DB5AE00A84464 /* Assets.xcassets in Resources */,
+				157E2A312A2DED3800A84464 /* YDMineAsset.xcassets in Resources */,
+				157E2A552A2DEE7F00A84464 /* YDConfigImage.xcassets in Resources */,
 				157E295C2A2DE7DA00A84464 /* YDEmptyAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1119,49 +1584,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A152A2DED3800A84464 /* YDLoginService.m in Sources */,
 				157E299D2A2DE7DB00A84464 /* AppDelegate.m in Sources */,
 				157E29282A2DE7DA00A84464 /* YDContainer.m in Sources */,
 				157E29702A2DE7DB00A84464 /* YDButton.m in Sources */,
 				157E29972A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299A2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
+				157E29B12A2DEC7500A84464 /* YDConst.m in Sources */,
 				157E29672A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292B2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29372A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				157E2A032A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296A2A2DE7DA00A84464 /* YDImageView.m in Sources */,
+				157E2A212A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
 				157E27492A2DB50200A84464 /* ViewController.m in Sources */,
 				157E29222A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
 				157E29402A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
+				157E2A392A2DED3800A84464 /* YDUserViewController.m in Sources */,
+				157E29FD2A2DED3800A84464 /* YDAppLogin.m in Sources */,
 				157E296D2A2DE7DB00A84464 /* YDTableView.m in Sources */,
+				157E2A572A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */,
+				157E2A1E2A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */,
 				157E29312A2DE7DA00A84464 /* YDBack.m in Sources */,
+				157E2A442A2DEE0400A84464 /* YDDB+YDUser.m in Sources */,
 				157E29432A2DE7DA00A84464 /* YDWebViewController+JS.m in Sources */,
 				157E29252A2DE7DA00A84464 /* YDUploadService.m in Sources */,
+				157E2A2A2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */,
 				157E294F2A2DE7DA00A84464 /* YDMiniProService.m in Sources */,
+				157E2A002A2DED3800A84464 /* YDUser.m in Sources */,
+				157E2A182A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				157E2A2D2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E29192A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
+				157E2A472A2DEE0400A84464 /* YDDB.m in Sources */,
 				157E29912A2DE7DB00A84464 /* YDPortraitControlView.m in Sources */,
+				157E29AE2A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */,
 				157E298E2A2DE7DB00A84464 /* YDSpeedLoadingView.m in Sources */,
 				157E297F2A2DE7DB00A84464 /* YDVolumeBrightnessView.m in Sources */,
 				157E29612A2DE7DA00A84464 /* YDBaseViewController.m in Sources */,
 				157E29642A2DE7DA00A84464 /* UIViewController+YDHook.m in Sources */,
 				157E293D2A2DE7DA00A84464 /* UpApiUtils.m in Sources */,
 				157E29522A2DE7DA00A84464 /* YDImagePickerViewController.m in Sources */,
+				157E2A062A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */,
+				157E2A362A2DED3800A84464 /* YDHomePageViewController.m in Sources */,
+				157E2A122A2DED3800A84464 /* YDLoginViewController.m in Sources */,
 				157E292E2A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
+				157E29AB2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				157E2A092A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
 				157E29582A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297C2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29342A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
 				157E29762A2DE7DB00A84464 /* YDStyle.m in Sources */,
 				157E29552A2DE7DA00A84464 /* YDEmptyViewConfig.m in Sources */,
+				157E2A0C2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */,
+				157E29FA2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */,
 				157E295E2A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
+				157E2A272A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				157E2A5A2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E29822A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				157E291F2A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
+				157E2A512A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291C2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
 				157E29852A2DE7DB00A84464 /* YDLandScapeControlView.m in Sources */,
+				157E2A0F2A2DED3800A84464 /* YDLoginCommand.m in Sources */,
 				157E29732A2DE7DB00A84464 /* YDView.m in Sources */,
 				157E29882A2DE7DB00A84464 /* YDSmallFloatControlView.m in Sources */,
 				157E29792A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
+				157E2A3C2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298B2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
 				157E27542A2DB50400A84464 /* main.m in Sources */,
 				157E29942A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29462A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
+				157E2A1B2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				157E2A242A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293A2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1187,49 +1681,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A172A2DED3800A84464 /* YDLoginService.m in Sources */,
 				157E299F2A2DE7DB00A84464 /* AppDelegate.m in Sources */,
 				157E292A2A2DE7DA00A84464 /* YDContainer.m in Sources */,
 				157E29722A2DE7DB00A84464 /* YDButton.m in Sources */,
 				157E29992A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299C2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
+				157E29B32A2DEC7500A84464 /* YDConst.m in Sources */,
 				157E29692A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292D2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29392A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				157E2A052A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296C2A2DE7DA00A84464 /* YDImageView.m in Sources */,
+				157E2A232A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
 				157E27782A2DB5A100A84464 /* ViewController.m in Sources */,
 				157E29242A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
 				157E29422A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
+				157E2A3B2A2DED3800A84464 /* YDUserViewController.m in Sources */,
+				157E29FF2A2DED3800A84464 /* YDAppLogin.m in Sources */,
 				157E296F2A2DE7DB00A84464 /* YDTableView.m in Sources */,
+				157E2A592A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */,
+				157E2A202A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */,
 				157E29332A2DE7DA00A84464 /* YDBack.m in Sources */,
+				157E2A462A2DEE0400A84464 /* YDDB+YDUser.m in Sources */,
 				157E29452A2DE7DA00A84464 /* YDWebViewController+JS.m in Sources */,
 				157E29272A2DE7DA00A84464 /* YDUploadService.m in Sources */,
+				157E2A2C2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */,
 				157E29512A2DE7DA00A84464 /* YDMiniProService.m in Sources */,
+				157E2A022A2DED3800A84464 /* YDUser.m in Sources */,
+				157E2A1A2A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				157E2A2F2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E291B2A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
+				157E2A492A2DEE0400A84464 /* YDDB.m in Sources */,
 				157E29932A2DE7DB00A84464 /* YDPortraitControlView.m in Sources */,
+				157E29B02A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */,
 				157E29902A2DE7DB00A84464 /* YDSpeedLoadingView.m in Sources */,
 				157E29812A2DE7DB00A84464 /* YDVolumeBrightnessView.m in Sources */,
 				157E29632A2DE7DA00A84464 /* YDBaseViewController.m in Sources */,
 				157E29662A2DE7DA00A84464 /* UIViewController+YDHook.m in Sources */,
 				157E293F2A2DE7DA00A84464 /* UpApiUtils.m in Sources */,
 				157E29542A2DE7DA00A84464 /* YDImagePickerViewController.m in Sources */,
+				157E2A082A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */,
+				157E2A382A2DED3800A84464 /* YDHomePageViewController.m in Sources */,
+				157E2A142A2DED3800A84464 /* YDLoginViewController.m in Sources */,
 				157E29302A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
+				157E29AD2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				157E2A0B2A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
 				157E295A2A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297E2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29362A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
 				157E29782A2DE7DB00A84464 /* YDStyle.m in Sources */,
 				157E29572A2DE7DA00A84464 /* YDEmptyViewConfig.m in Sources */,
+				157E2A0E2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */,
+				157E29FC2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */,
 				157E29602A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
+				157E2A292A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				157E2A5C2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E29842A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				157E29212A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
+				157E2A532A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291E2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
 				157E29872A2DE7DB00A84464 /* YDLandScapeControlView.m in Sources */,
+				157E2A112A2DED3800A84464 /* YDLoginCommand.m in Sources */,
 				157E29752A2DE7DB00A84464 /* YDView.m in Sources */,
 				157E298A2A2DE7DB00A84464 /* YDSmallFloatControlView.m in Sources */,
 				157E297B2A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
+				157E2A3E2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298D2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
 				157E277A2A2DB5A100A84464 /* main.m in Sources */,
 				157E29962A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29482A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
+				157E2A1D2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				157E2A262A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293C2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1238,49 +1761,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157E2A162A2DED3800A84464 /* YDLoginService.m in Sources */,
 				157E299E2A2DE7DB00A84464 /* AppDelegate.m in Sources */,
 				157E29292A2DE7DA00A84464 /* YDContainer.m in Sources */,
 				157E29712A2DE7DB00A84464 /* YDButton.m in Sources */,
 				157E29982A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299B2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
+				157E29B22A2DEC7500A84464 /* YDConst.m in Sources */,
 				157E29682A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292C2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29382A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				157E2A042A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296B2A2DE7DA00A84464 /* YDImageView.m in Sources */,
+				157E2A222A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
 				157E27882A2DB5AE00A84464 /* ViewController.m in Sources */,
 				157E29232A2DE7DA00A84464 /* YDUploadManager.m in Sources */,
 				157E29412A2DE7DA00A84464 /* YDLoggerUploadService.m in Sources */,
+				157E2A3A2A2DED3800A84464 /* YDUserViewController.m in Sources */,
+				157E29FE2A2DED3800A84464 /* YDAppLogin.m in Sources */,
 				157E296E2A2DE7DB00A84464 /* YDTableView.m in Sources */,
+				157E2A582A2DEE7F00A84464 /* AppDelegate+YDServicePush.m in Sources */,
+				157E2A1F2A2DED3800A84464 /* YDLaunchScreenModel.m in Sources */,
 				157E29322A2DE7DA00A84464 /* YDBack.m in Sources */,
+				157E2A452A2DEE0400A84464 /* YDDB+YDUser.m in Sources */,
 				157E29442A2DE7DA00A84464 /* YDWebViewController+JS.m in Sources */,
 				157E29262A2DE7DA00A84464 /* YDUploadService.m in Sources */,
+				157E2A2B2A2DED3800A84464 /* YDHiddenFunctionPasswordView.m in Sources */,
 				157E29502A2DE7DA00A84464 /* YDMiniProService.m in Sources */,
+				157E2A012A2DED3800A84464 /* YDUser.m in Sources */,
+				157E2A192A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				157E2A2E2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E291A2A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
+				157E2A482A2DEE0400A84464 /* YDDB.m in Sources */,
 				157E29922A2DE7DB00A84464 /* YDPortraitControlView.m in Sources */,
+				157E29AF2A2DEC7500A84464 /* YDNetWorkConfig.m in Sources */,
 				157E298F2A2DE7DB00A84464 /* YDSpeedLoadingView.m in Sources */,
 				157E29802A2DE7DB00A84464 /* YDVolumeBrightnessView.m in Sources */,
 				157E29622A2DE7DA00A84464 /* YDBaseViewController.m in Sources */,
 				157E29652A2DE7DA00A84464 /* UIViewController+YDHook.m in Sources */,
 				157E293E2A2DE7DA00A84464 /* UpApiUtils.m in Sources */,
 				157E29532A2DE7DA00A84464 /* YDImagePickerViewController.m in Sources */,
+				157E2A072A2DED3800A84464 /* YDUserInfoUpdateCommand.m in Sources */,
+				157E2A372A2DED3800A84464 /* YDHomePageViewController.m in Sources */,
+				157E2A132A2DED3800A84464 /* YDLoginViewController.m in Sources */,
 				157E292F2A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
+				157E29AC2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				157E2A0A2A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
 				157E29592A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297D2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29352A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
 				157E29772A2DE7DB00A84464 /* YDStyle.m in Sources */,
 				157E29562A2DE7DA00A84464 /* YDEmptyViewConfig.m in Sources */,
+				157E2A0D2A2DED3800A84464 /* YDSendCodeCommand.m in Sources */,
+				157E29FB2A2DED3800A84464 /* YDMediator+YDLogin.m in Sources */,
 				157E295F2A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
+				157E2A282A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				157E2A5B2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
 				157E29832A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				157E29202A2DE7DA00A84464 /* YDAppCheckUpdateCommand.m in Sources */,
+				157E2A522A2DEE7F00A84464 /* AppDelegate+YDThird.m in Sources */,
 				157E291D2A2DE7DA00A84464 /* YDAppUpdateTostView.m in Sources */,
 				157E29862A2DE7DB00A84464 /* YDLandScapeControlView.m in Sources */,
+				157E2A102A2DED3800A84464 /* YDLoginCommand.m in Sources */,
 				157E29742A2DE7DB00A84464 /* YDView.m in Sources */,
 				157E29892A2DE7DB00A84464 /* YDSmallFloatControlView.m in Sources */,
 				157E297A2A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
+				157E2A3D2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298C2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
 				157E278A2A2DB5AE00A84464 /* main.m in Sources */,
 				157E29952A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29472A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
+				157E2A1C2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				157E2A252A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293B2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

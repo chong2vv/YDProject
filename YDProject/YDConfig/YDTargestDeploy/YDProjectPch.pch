@@ -37,6 +37,7 @@
 #import "YDAppDefine.h"
 
 //YDFoundation
+#import <YDLogger/YDLogger.h>
 #import "YDBaseVC.h"
 #import <YDUtilKit/YDUtilKit.h>
 #import <YDNetworkManager/YDNetworkManager.h>
