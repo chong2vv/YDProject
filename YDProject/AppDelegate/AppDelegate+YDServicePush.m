@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate+YDServicePush.h"
-#import "AppDelegate+YDSetupVC.h"
+#import "AppDelegate+YDSetupViewController.h"
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
 #endif

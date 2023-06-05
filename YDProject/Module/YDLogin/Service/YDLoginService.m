@@ -8,7 +8,7 @@
 #import "YDLoginService.h"
 #import "YDUserConfig.h"
 #import "YDMediator+YDLogin.h"
-#import "AppDelegate+YDSetupVC.h"
+#import "AppDelegate+YDSetupViewController.h"
 
 @implementation YDLoginService
 

@@ -2054,6 +2054,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectOnline=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2084,6 +2088,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectOnline=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2182,6 +2190,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectDev=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2211,6 +2223,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectDev=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2240,6 +2256,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectPre=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2269,6 +2289,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YDProject/YDConfig/YDTargestDeploy/YDProjectPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"kProjectPre=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

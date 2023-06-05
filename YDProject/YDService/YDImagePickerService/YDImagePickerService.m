@@ -9,7 +9,7 @@
 #import <YDBlockKit/UIImagePickerController+BlocksKit.h>
 #import <CoreServices/CoreServices.h>
 #import "YDImagePickerViewController.h"
-#import "AppDelegate+YDSetupVC.h"
+#import "AppDelegate+YDSetupViewController.h"
 
 #define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
