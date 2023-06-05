@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <YDSVProgressHUD/YDProgressHUD.h>
-//#import <YDImageService/YDImageService.h>
+#import <YDImageService/YDImageService.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,8 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 //YDImageService 配置
-//@interface YDWebImageConfig : NSObject<YDImageConfigProtocol>
-//
-//@end
+@interface YDWebImageConfig : NSObject<YDImageConfigProtocol>
+
+@end
 
 NS_ASSUME_NONNULL_END

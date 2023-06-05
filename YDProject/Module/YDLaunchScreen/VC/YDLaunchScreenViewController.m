@@ -8,7 +8,7 @@
 #import "YDLaunchScreenViewController.h"
 #import "YDLaunchScreenViewModel.h"
 #import "YDWebConfig.h"
-#import "AppDelegate+YDSetupVC.h"
+#import "AppDelegate+YDSetupViewController.h"
 
 @interface YDLaunchScreenViewController ()
 

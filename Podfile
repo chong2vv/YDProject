@@ -66,6 +66,8 @@ def sharePods
   pod 'YDAuthorizationUtil', '~> 0.1.0'
   #文件管理器
   pod 'YDFileManager', '~> 0.1.3'
+  #图片管理
+  pod 'YDImageService', '~> 0.1.6'
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
   #路由

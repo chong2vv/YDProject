@@ -6,13 +6,14 @@
 //
 
 #import "YDUIConfig.h"
+#import <YDImageService/YDImageService.h>
 
 @implementation YDUIConfig
 
 + (void)YDUIConfig {
     // 配置WebImageService
     YDWebImageConfig *webImageConfig = [[YDWebImageConfig alloc] init];
-//    [[YDImageService shared] resetConfig:webImageConfig];
+    [[YDImageService shared] resetConfig:webImageConfig];
 }
 
 @end

@@ -16,9 +16,6 @@
 #import "YDAppDevDefine.h"
 #endif
 
-#import "YDNetWorkConfig.h"
-#import "YDUtilBlock.h"
-//#import "YDUserConfig.h"
 #import "YDStyle.h"
 #import "YDBaseView.h"
 #import "YDConst.h"
@@ -28,5 +25,8 @@
 #import "YDEmptyView.h"
 #import "UIViewController+YDEmptyViewShow.h"
 #import "YDLoginService.h"
+#import "YDMediator.h"
+#import "YDNetWorkConfig.h"
+#import "YDUtilBlock.h"
 
 #endif /* YDAppDefine_h */
