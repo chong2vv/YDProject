@@ -7,6 +7,7 @@
 
 #import "YDHomePageViewController.h"
 #import "YDHiddenFunctionViewController.h"
+#import "YDUserService.h"
 
 @interface YDHomePageViewController ()
 
@@ -45,11 +46,16 @@
 }
 
 - (void)userLoginAction {
-    [YDLoginService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
-        if (isLogin) {
-            NSLog(@"登录成功");
-        }
-    }];
+    
+    NSLog(@"======= user log==========%d", [[YDUserService shared] isUserLogin]);
+    [[MMKV defaultMMKV] setString:@"1000002" forKey:YDPlistCurrentUserUID];
+    NSLog(@"======= user log==========%d", [[YDUserService shared] isUserLogin]);
+    
+//    [YDLoginService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
+//        if (isLogin) {
+//            NSLog(@"登录成功");
+//        }
+//    }];
 }
 
 

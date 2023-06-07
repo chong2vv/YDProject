@@ -265,6 +265,9 @@
 		157E2A762A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
 		157E2A772A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
 		157E2A782A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
+		157E2A7B2A307A8D00A84464 /* YDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A7A2A307A8D00A84464 /* YDUserService.m */; };
+		157E2A7C2A307A8D00A84464 /* YDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A7A2A307A8D00A84464 /* YDUserService.m */; };
+		157E2A7D2A307A8E00A84464 /* YDUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A7A2A307A8D00A84464 /* YDUserService.m */; };
 		501FA7BF665BBA8725B3F00D /* libPods-YDProjectDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6ED85608FC6B9C5941C37 /* libPods-YDProjectDev.a */; };
 		5D567DD971058C12C073300A /* libPods-YDProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D98A094D645D9CF47289E6 /* libPods-YDProject.a */; };
 		DF56CD53FFD69F0127B98DD8 /* libPods-YDProjectPre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBA21C4A20250BBA40F54B /* libPods-YDProjectPre.a */; };
@@ -475,6 +478,8 @@
 		157E2A702A2DF9CA00A84464 /* YDMediator+YDWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDMediator+YDWeb.h"; sourceTree = "<group>"; };
 		157E2A712A2DF9CA00A84464 /* YDAppWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppWeb.m; sourceTree = "<group>"; };
 		157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDMediator+YDWeb.m"; sourceTree = "<group>"; };
+		157E2A792A307A8D00A84464 /* YDUserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserService.h; sourceTree = "<group>"; };
+		157E2A7A2A307A8D00A84464 /* YDUserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUserService.m; sourceTree = "<group>"; };
 		34330F0FDB00081C9709B574 /* Pods-YDProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.debug.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.debug.xcconfig"; sourceTree = "<group>"; };
 		70840FBC284F84DAFFAC33F9 /* Pods-YDProjectDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProjectDev.release.xcconfig"; path = "Target Support Files/Pods-YDProjectDev/Pods-YDProjectDev.release.xcconfig"; sourceTree = "<group>"; };
 		716CC34CB2C213B26F8772A2 /* Pods-YDProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.release.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -1019,6 +1024,7 @@
 		157E29B52A2DED3700A84464 /* YDLogin */ = {
 			isa = PBXGroup;
 			children = (
+				157E29C22A2DED3700A84464 /* Command */,
 				1568AE092A2E3C3400B6ABA0 /* Model */,
 				1568AE032A2E3B2A00B6ABA0 /* ViewModel */,
 				157E29B62A2DED3700A84464 /* App */,
@@ -1044,19 +1050,10 @@
 		157E29BC2A2DED3700A84464 /* UserConfig */ = {
 			isa = PBXGroup;
 			children = (
-				157E29C22A2DED3700A84464 /* Command */,
 				157E29BD2A2DED3700A84464 /* YDUserConfig.h */,
 				157E29C12A2DED3700A84464 /* YDUserConfig.m */,
-				157E29BE2A2DED3700A84464 /* YDUserModel */,
 			);
 			path = UserConfig;
-			sourceTree = "<group>";
-		};
-		157E29BE2A2DED3700A84464 /* YDUserModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDUserModel;
 			sourceTree = "<group>";
 		};
 		157E29C22A2DED3700A84464 /* Command */ = {
@@ -1088,6 +1085,8 @@
 			children = (
 				157E29D02A2DED3700A84464 /* YDLoginService.h */,
 				157E29CF2A2DED3700A84464 /* YDLoginService.m */,
+				157E2A792A307A8D00A84464 /* YDUserService.h */,
+				157E2A7A2A307A8D00A84464 /* YDUserService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -1686,6 +1685,7 @@
 				157E29972A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299A2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
 				157E29B12A2DEC7500A84464 /* YDConst.m in Sources */,
+				157E2A7B2A307A8D00A84464 /* YDUserService.m in Sources */,
 				157E29672A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292B2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29372A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
@@ -1789,6 +1789,7 @@
 				157E29992A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299C2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
 				157E29B32A2DEC7500A84464 /* YDConst.m in Sources */,
+				157E2A7D2A307A8E00A84464 /* YDUserService.m in Sources */,
 				157E29692A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292D2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29392A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
@@ -1875,6 +1876,7 @@
 				157E29982A2DE7DB00A84464 /* YDMediaPlayerManager.m in Sources */,
 				157E299B2A2DE7DB00A84464 /* AppDelegate+YDSetupViewController.m in Sources */,
 				157E29B22A2DEC7500A84464 /* YDConst.m in Sources */,
+				157E2A7C2A307A8D00A84464 /* YDUserService.m in Sources */,
 				157E29682A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292C2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29382A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
