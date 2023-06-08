@@ -13,6 +13,21 @@
 		1568AE062A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
 		1568AE072A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
 		1568AE082A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */; };
+		156F91502A317CE80031DB8C /* YDLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F914F2A317CE80031DB8C /* YDLoginRouter.m */; };
+		156F91512A317CE80031DB8C /* YDLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F914F2A317CE80031DB8C /* YDLoginRouter.m */; };
+		156F91522A317CE80031DB8C /* YDLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F914F2A317CE80031DB8C /* YDLoginRouter.m */; };
+		156F915C2A31BAA80031DB8C /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91562A31BAA80031DB8C /* MGJRouter.m */; };
+		156F915D2A31BAA80031DB8C /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91562A31BAA80031DB8C /* MGJRouter.m */; };
+		156F915E2A31BAA80031DB8C /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91562A31BAA80031DB8C /* MGJRouter.m */; };
+		156F915F2A31BAA80031DB8C /* YDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91572A31BAA80031DB8C /* YDRouter.m */; };
+		156F91602A31BAA80031DB8C /* YDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91572A31BAA80031DB8C /* YDRouter.m */; };
+		156F91612A31BAA80031DB8C /* YDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F91572A31BAA80031DB8C /* YDRouter.m */; };
+		156F91622A31BAA80031DB8C /* YDURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915A2A31BAA80031DB8C /* YDURLHelper.m */; };
+		156F91632A31BAA80031DB8C /* YDURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915A2A31BAA80031DB8C /* YDURLHelper.m */; };
+		156F91642A31BAA80031DB8C /* YDURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915A2A31BAA80031DB8C /* YDURLHelper.m */; };
+		156F91652A31BAA80031DB8C /* YDURLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915B2A31BAA80031DB8C /* YDURLHandle.m */; };
+		156F91662A31BAA80031DB8C /* YDURLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915B2A31BAA80031DB8C /* YDURLHandle.m */; };
+		156F91672A31BAA80031DB8C /* YDURLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F915B2A31BAA80031DB8C /* YDURLHandle.m */; };
 		157E274E2A2DB50400A84464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E274D2A2DB50400A84464 /* Assets.xcassets */; };
 		157E27512A2DB50400A84464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E274F2A2DB50400A84464 /* LaunchScreen.storyboard */; };
 		157E27542A2DB50400A84464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E27532A2DB50400A84464 /* main.m */; };
@@ -298,6 +313,16 @@
 		1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDSwiftConfig.swift; sourceTree = "<group>"; };
 		1568AE042A2E3B5400B6ABA0 /* YDLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginViewModel.h; sourceTree = "<group>"; };
 		1568AE052A2E3B5400B6ABA0 /* YDLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginViewModel.m; sourceTree = "<group>"; };
+		156F914E2A317CE80031DB8C /* YDLoginRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginRouter.h; sourceTree = "<group>"; };
+		156F914F2A317CE80031DB8C /* YDLoginRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginRouter.m; sourceTree = "<group>"; };
+		156F91542A31BAA80031DB8C /* YDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRouter.h; sourceTree = "<group>"; };
+		156F91552A31BAA80031DB8C /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		156F91562A31BAA80031DB8C /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		156F91572A31BAA80031DB8C /* YDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRouter.m; sourceTree = "<group>"; };
+		156F91582A31BAA80031DB8C /* YDURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDURLHelper.h; sourceTree = "<group>"; };
+		156F91592A31BAA80031DB8C /* YDURLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDURLHandle.h; sourceTree = "<group>"; };
+		156F915A2A31BAA80031DB8C /* YDURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDURLHelper.m; sourceTree = "<group>"; };
+		156F915B2A31BAA80031DB8C /* YDURLHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDURLHandle.m; sourceTree = "<group>"; };
 		157E273E2A2DB50200A84464 /* YDProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157E274D2A2DB50400A84464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157E27502A2DB50400A84464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -561,6 +586,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		156F91482A317C320031DB8C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				156F914E2A317CE80031DB8C /* YDLoginRouter.h */,
+				156F914F2A317CE80031DB8C /* YDLoginRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		156F91532A31BA7A0031DB8C /* YDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				156F91552A31BAA80031DB8C /* MGJRouter.h */,
+				156F91562A31BAA80031DB8C /* MGJRouter.m */,
+				156F91542A31BAA80031DB8C /* YDRouter.h */,
+				156F91572A31BAA80031DB8C /* YDRouter.m */,
+				156F91592A31BAA80031DB8C /* YDURLHandle.h */,
+				156F915B2A31BAA80031DB8C /* YDURLHandle.m */,
+				156F91582A31BAA80031DB8C /* YDURLHelper.h */,
+				156F915A2A31BAA80031DB8C /* YDURLHelper.m */,
+			);
+			path = YDRouter;
+			sourceTree = "<group>";
+		};
 		157E27352A2DB50200A84464 = {
 			isa = PBXGroup;
 			children = (
@@ -623,6 +672,7 @@
 			children = (
 				157E28BE2A2DE7D900A84464 /* YDContainer.h */,
 				157E28A82A2DE7D900A84464 /* YDContainer.m */,
+				156F91532A31BA7A0031DB8C /* YDRouter */,
 				157E2A3F2A2DEDDD00A84464 /* YDDB */,
 				157E289A2A2DE7D900A84464 /* YDAppCheckUpdateService */,
 				157E28A92A2DE7D900A84464 /* YDArouter */,
@@ -1024,6 +1074,7 @@
 		157E29B52A2DED3700A84464 /* YDLogin */ = {
 			isa = PBXGroup;
 			children = (
+				156F91482A317C320031DB8C /* Router */,
 				157E29C22A2DED3700A84464 /* Command */,
 				1568AE092A2E3C3400B6ABA0 /* Model */,
 				1568AE032A2E3B2A00B6ABA0 /* ViewModel */,
@@ -1689,6 +1740,7 @@
 				157E29672A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292B2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29372A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				156F915C2A31BAA80031DB8C /* MGJRouter.m in Sources */,
 				157E2A032A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296A2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A212A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
@@ -1728,7 +1780,9 @@
 				157E292E2A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
 				157E2A6C2A2DF76B00A84464 /* YDMediator.m in Sources */,
 				157E29AB2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				156F91652A31BAA80031DB8C /* YDURLHandle.m in Sources */,
 				157E2A092A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
+				156F91622A31BAA80031DB8C /* YDURLHelper.m in Sources */,
 				157E29582A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297C2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29342A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
@@ -1739,6 +1793,7 @@
 				157E295E2A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				157E2A272A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
 				157E2A5A2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
+				156F915F2A31BAA80031DB8C /* YDRouter.m in Sources */,
 				157E2A662A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29822A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				1568AE062A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
@@ -1752,6 +1807,7 @@
 				157E29792A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
 				157E2A3C2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298B2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
+				156F91502A317CE80031DB8C /* YDLoginRouter.m in Sources */,
 				157E27542A2DB50400A84464 /* main.m in Sources */,
 				157E29942A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29462A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
@@ -1793,6 +1849,7 @@
 				157E29692A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292D2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29392A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				156F915E2A31BAA80031DB8C /* MGJRouter.m in Sources */,
 				157E2A052A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296C2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A232A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
@@ -1832,7 +1889,9 @@
 				157E29302A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
 				157E2A6E2A2DF76B00A84464 /* YDMediator.m in Sources */,
 				157E29AD2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				156F91672A31BAA80031DB8C /* YDURLHandle.m in Sources */,
 				157E2A0B2A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
+				156F91642A31BAA80031DB8C /* YDURLHelper.m in Sources */,
 				157E295A2A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297E2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29362A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
@@ -1843,6 +1902,7 @@
 				157E29602A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				157E2A292A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
 				157E2A5C2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
+				156F91612A31BAA80031DB8C /* YDRouter.m in Sources */,
 				157E2A682A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29842A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				1568AE082A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
@@ -1856,6 +1916,7 @@
 				157E297B2A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
 				157E2A3E2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298D2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
+				156F91522A317CE80031DB8C /* YDLoginRouter.m in Sources */,
 				157E277A2A2DB5A100A84464 /* main.m in Sources */,
 				157E29962A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29482A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
@@ -1880,6 +1941,7 @@
 				157E29682A2DE7DA00A84464 /* UIViewController+YDNav.m in Sources */,
 				157E292C2A2DE7DA00A84464 /* YDMainRouterHandle.m in Sources */,
 				157E29382A2DE7DA00A84464 /* UpUploadModel.m in Sources */,
+				156F915D2A31BAA80031DB8C /* MGJRouter.m in Sources */,
 				157E2A042A2DED3800A84464 /* YDUserConfig.m in Sources */,
 				157E296B2A2DE7DA00A84464 /* YDImageView.m in Sources */,
 				157E2A222A2DED3800A84464 /* YDLaunchScreenCommand.m in Sources */,
@@ -1919,7 +1981,9 @@
 				157E292F2A2DE7DA00A84464 /* YDRouter+YDRegistConfig.m in Sources */,
 				157E2A6D2A2DF76B00A84464 /* YDMediator.m in Sources */,
 				157E29AC2A2DEC7500A84464 /* YDUIConfig.m in Sources */,
+				156F91662A31BAA80031DB8C /* YDURLHandle.m in Sources */,
 				157E2A0A2A2DED3800A84464 /* YDRegisterCommand.m in Sources */,
+				156F91632A31BAA80031DB8C /* YDURLHelper.m in Sources */,
 				157E29592A2DE7DA00A84464 /* YDEmptyView.m in Sources */,
 				157E297D2A2DE7DB00A84464 /* YDAVPlayerViewController.m in Sources */,
 				157E29352A2DE7DA00A84464 /* YDImagePickerService.m in Sources */,
@@ -1930,6 +1994,7 @@
 				157E295F2A2DE7DA00A84464 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				157E2A282A2DED3800A84464 /* YDHiddenFunctionPasswordInputView.m in Sources */,
 				157E2A5B2A2DEE7F00A84464 /* AppDelegate+YDAvoidCrash.m in Sources */,
+				156F91602A31BAA80031DB8C /* YDRouter.m in Sources */,
 				157E2A672A2DF76B00A84464 /* YDApp.m in Sources */,
 				157E29832A2DE7DB00A84464 /* YDPlayerControlView.m in Sources */,
 				1568AE072A2E3B5400B6ABA0 /* YDLoginViewModel.m in Sources */,
@@ -1943,6 +2008,7 @@
 				157E297A2A2DE7DB00A84464 /* YDViewReusePool.m in Sources */,
 				157E2A3D2A2DED3800A84464 /* YDUserShowService.m in Sources */,
 				157E298C2A2DE7DB00A84464 /* YDSliderView.m in Sources */,
+				156F91512A317CE80031DB8C /* YDLoginRouter.m in Sources */,
 				157E278A2A2DB5AE00A84464 /* main.m in Sources */,
 				157E29952A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29472A2DE7DA00A84464 /* YDWebViewController.m in Sources */,

@@ -70,8 +70,6 @@ def sharePods
   pod 'YDImageService', '~> 0.1.6'
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
-  #路由
-  pod 'YDRouter', '~> 0.1.2'
   #加载loading库
   pod 'YDSVProgressHUD', '~> 0.1.5'
   #block分类库

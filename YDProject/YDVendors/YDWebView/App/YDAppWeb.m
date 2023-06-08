@@ -10,8 +10,7 @@
 #import "YDWebViewController.h"
 #import "YDWebViewController+JS.h"
 #import "YDMiniProService.h"
-#import <YDRouter/YDRouter.h>
-
+#import "YDRouter.h"
 typedef NS_ENUM(NSInteger, EYDAPPLinkType) {
     EYDAPPLinkTypeWebUrl,        //跳转webview
     EYDAPPLinkTypeMiniPro,        //唤醒小程序

@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDUserService : NSObject
+@property (nonatomic, assign, readonly) NSString *user_id;
 
 + (instancetype)shared;
 
@@ -17,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)isLogin;
 
+- (void)logout;
+- (void)login;
 @end
 
 NS_ASSUME_NONNULL_END

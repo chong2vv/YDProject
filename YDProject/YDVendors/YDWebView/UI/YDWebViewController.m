@@ -6,7 +6,7 @@
 //
 
 #import "YDWebViewController.h"
-#import <YDRouter/YDRouter.h>
+#import "YDRouter.h"
 
 
 static NSString *kOriginalUserAgent = @"kOriginalUserAgent";
@@ -448,18 +448,7 @@ WKScriptMessageHandler>
         if ([helper.host isEqualToString:@"yd.com"]) { // 右上角按钮处理
             NSDictionary *dict = helper.params;
             NSString *type = dict[@"type"];
-            if ([type isEqualToString:@"showMailOrderButton"]) {
-                // 二期暂时隐藏 商城订单 入口
-//                if ([ArtConfig shared].iosPublish == NO) {
-//                BOOL show = [dict[@"show"] boolValue];
-//                if (show) {
-//                    NSString *pushUrl = dict[@"url"];
-//                    [self configRightBarWithJumpUrl:[pushUrl stringByRemovingPercentEncoding] btnTitle:@"商城订单"];
-//                } else {
-//                    self.navigationItem.rightBarButtonItem = nil;
-//                }
-//                }
-            } else if ([type.lowercaseString isEqualToString:@"orderbrowsing"]) {
+            if ([type.lowercaseString isEqualToString:@"orderbrowsing"]) {
                 NSInteger tag = [dict[@"tag"] integerValue];
                 // 0全部 1、2、3、4
                 

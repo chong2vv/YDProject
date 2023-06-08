@@ -29,5 +29,6 @@
 #import "YDBaseView.h"
 #import "YDConst.h"
 #import "YDDB+YDUser.h"
+#import "YDURLHandle.h"
 
 #endif /* YDAppDefine_h */

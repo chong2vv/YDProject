@@ -62,10 +62,7 @@
             }
         }];
         
-        return [RACDisposable disposableWithBlock:^{
-            // 在信号被销毁时，取消监听 MMKV 存储值的变化
-            [[NSNotificationCenter defaultCenter] removeObserver:self name:@"MMKVValueChangedNotification" object:nil];
-        }];
+        return nil;
     }];
 }
 
@@ -107,13 +104,6 @@
     
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     [params setObject:successCallback forKey:@"successCallback"];
-    [params setObject:@(NO) forKey:@"ischeck"];
-    
-    
-    if([YDAppDelegate currentVC])
-    {
-        [params setObject:[YDAppDelegate currentVC] forKey:@"showViewController"];
-    }
     NSLog(@"登录params ===== %@",params);
     // 防止二次弹出登录页面逻辑 -- start
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"LoginVCIsShow"] == YES) {
@@ -127,6 +117,7 @@
         [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"LoginVCIsShow"];
     });
     [[YDMediator sharedInstance] startLoginParams:params];
+    
 }
 
 ///当前显示的是否是登录VC

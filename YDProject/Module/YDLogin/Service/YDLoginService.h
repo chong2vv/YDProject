@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(BOOL)checkAndLoginWithTypeComplete:(void (^)(BOOL isLogin))completion;
 
+
++(void)testRouterLogin;
+
 @end
 
 NS_ASSUME_NONNULL_END

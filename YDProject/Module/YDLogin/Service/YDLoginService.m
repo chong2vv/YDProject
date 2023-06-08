@@ -9,8 +9,14 @@
 #import "YDUserConfig.h"
 #import "YDMediator+YDLogin.h"
 #import "AppDelegate+YDSetupViewController.h"
+#import "YDRouter.h"
 
 @implementation YDLoginService
+
++ (void)testRouterLogin {
+    [YDRouter openURL:[YDURLHelper URLWithString:@""]];
+}
+
 
 +(BOOL)checkAndLoginWithTypeComplete:(void (^)(BOOL isLogin))completion {
     
