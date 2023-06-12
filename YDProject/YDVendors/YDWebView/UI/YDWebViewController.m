@@ -6,7 +6,6 @@
 //
 
 #import "YDWebViewController.h"
-#import "YDRouter.h"
 
 
 static NSString *kOriginalUserAgent = @"kOriginalUserAgent";
@@ -78,7 +77,7 @@ WKScriptMessageHandler>
 {
     self.tmpWebView = [[WKWebView alloc] initWithFrame:CGRectZero];
     [self.tmpWebView evaluateJavaScript:@"navigator.userAgent" completionHandler:^(NSString *result, NSError *error) {
-        NSString *queryStr = [[YDUserConfig shared] userAgent];
+        NSString *queryStr = [[YDLoginViewModel shared] uid];
         NSString *newUserAgent = queryStr;
         if (result.length > 0) {
             //说明是原始ua，原始ua需要拼接queryStr信息
@@ -87,12 +86,12 @@ WKScriptMessageHandler>
                 newUserAgent = [NSString stringWithFormat:@"%@&oua=%@",queryStr,result];
             } else {
                 //userid 为空或者userId 变化了，重新拼接UA
-                if([result rangeOfString:[NSString stringWithFormat:@"userid=%@",YDUserConfig.shared.currentUserId]].length <= 0){
+                if([result rangeOfString:[NSString stringWithFormat:@"userid=%@",[[YDLoginViewModel shared] uid]]].length <= 0){
                     
                     NSString *oua = [[NSUserDefaults standardUserDefaults] objectForKey:kOriginalUserAgent];
                     newUserAgent = [NSString stringWithFormat:@"%@&oua=%@",queryStr,oua];
                     // userId 为空 重新拼接UA
-                }else if (YDUserConfig.shared.currentUserId.length == 0){
+                }else if ([[YDLoginViewModel shared] uid].length == 0){
                     NSString *oua = [[NSUserDefaults standardUserDefaults] objectForKey:kOriginalUserAgent];
                     newUserAgent = [NSString stringWithFormat:@"%@&oua=%@",queryStr,oua];
                 } else {//防止无限拼接
@@ -244,16 +243,16 @@ WKScriptMessageHandler>
 
 - (void)storeLocalStorage
 {
-    if ([YDUserConfig shared].isLogin == YES) {
+    if ([YDLoginViewModel shared].isLogin == YES) {
         WKUserContentController *userContent = self.webView.configuration.userContentController;
-        NSString *tokenStr = [NSString stringWithFormat:@"localStorage.setItem('token', '%@')",YDUserConfig.shared.authorization];
+        NSString *tokenStr = [NSString stringWithFormat:@"localStorage.setItem('token', '%@')",YDLoginViewModel.shared.uid];
         WKUserScript *tokenUserScript = [[WKUserScript alloc] initWithSource:tokenStr injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:NO];
         [userContent addUserScript:tokenUserScript];
         [self.webView evaluateJavaScript:tokenStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {
             NSLog(@"增加localstorage token");
         }];
         
-        NSString *userStr = [NSString stringWithFormat:@"localStorage.setItem('user', '%@')",YDUserConfig.shared.currentUserId];
+        NSString *userStr = [NSString stringWithFormat:@"localStorage.setItem('user', '%@')",YDLoginViewModel.shared.uid];
         WKUserScript *userScript = [[WKUserScript alloc] initWithSource:userStr injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:NO];
         [userContent addUserScript:userScript];
         [self.webView evaluateJavaScript:userStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {

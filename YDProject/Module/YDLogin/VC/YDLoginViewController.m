@@ -46,17 +46,7 @@
 
 // 登录调用
 - (void)loginAction {
-    [YDUserConfig shared].userAccount = @"";
-    [YDUserConfig shared].userPassword = @"";
     
-    @weakify(self)
-    [[YDUserConfig shared] userLogin:^{
-        @strongify(self);
-        [self loginOrRegisterComplete:nil];
-        } failure:^(NSString *error) {
-            @strongify(self);
-            [self loginOrRegisterFailure];
-        }];
 }
 
 /// 登录失败

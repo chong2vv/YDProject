@@ -15,13 +15,13 @@
 }
 
 + (void)setup {
-//    [YDRouter.sharedInstance registerURLPattern:@"YDCheckLogin" toHandler:^(NSDictionary *userInfo) {
-//        NSDictionary *aParams = userInfo;
-//        YDLoginViewController *svc = [YDLoginViewController new];
-//        svc.modalPresentationStyle = UIModalPresentationFullScreen;
-//        svc.successCallback = [aParams objectForKey:kSuccessCallback];
-//        void(^callback)(id result) = userInfo[@"^"];
-//        callback(svc);
-//    }];
+    [YDRouter.sharedInstance registerURLPattern:@"YDCheckLogin" toHandler:^(NSDictionary *userInfo) {
+        NSDictionary *aParams = userInfo;
+        YDLoginViewController *svc = [YDLoginViewController new];
+        svc.modalPresentationStyle = UIModalPresentationFullScreen;
+        svc.successCallback = [aParams objectForKey:kSuccessCallback];
+        void(^callback)(id result) = userInfo[@"^"];
+        callback(svc);
+    }];
 }
 @end

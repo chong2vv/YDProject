@@ -35,7 +35,7 @@
                         [view removeFromSuperview];
                                         } confirmAction:^{
                                             //点击确认后跳转升级
-                                            NSURL *url = [NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id1142110895"];
+                                            NSURL *url = [NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id12345678"];
                                                if (@available(iOS 10.0, *)){
                                                     [[UIApplication sharedApplication]openURL:url options:@{UIApplicationOpenURLOptionsSourceApplicationKey:@YES} completionHandler:^(BOOL success) {
                                                         if (success) {
@@ -45,7 +45,7 @@
                                                         }
                                                     }];
                                                 }else{
-                                                    BOOL success = [[UIApplication sharedApplication]openURL:url];
+                                                    BOOL success = [[UIApplication sharedApplication] openURL:url];
                                                     if (success) {
                                                          NSLog(@"10以前可以跳转url");
                                                     }else{

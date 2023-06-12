@@ -76,6 +76,8 @@ def sharePods
   pod 'YDBlockKit', '~> 0.1.1'
   #ktv封装库，视频预加载
   pod 'YDPreLoader', '~> 0.1.0'
+  #路由库
+  pod 'YDRouter', '~>0.1.3'
   #Alert库
   pod 'YDAlertAction', '~> 0.1.0'
   #金山云播放器二次封装

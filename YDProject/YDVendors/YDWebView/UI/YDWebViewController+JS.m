@@ -234,7 +234,7 @@
 - (void)callHandlerShareInfoComplete:(void(^)(NSDictionary *aDic))aComplete
 {
     NSDictionary *userInfo = @{
-        @"userId":[YDUserConfig shared].currentUserId,@"result":@"1"
+        @"userId":[YDLoginViewModel shared].uid,@"result":@"1"
     };
     [self.bridge callHandler:@"shareInfo" data:userInfo responseCallback:^(NSDictionary *responseData) {
         //        NSLog(@"WK:%@",responseData);

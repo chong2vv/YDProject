@@ -7,8 +7,6 @@
 
 #import "YDHomePageViewController.h"
 #import "YDHiddenFunctionViewController.h"
-#import "YDUserService.h"
-#import "YDLoginService.h"
 
 @interface YDHomePageViewController ()
 
@@ -20,6 +18,10 @@
     [super viewDidLoad];
     [self oppenHiddenFunctionVC];
     [self configTestUI];
+    
+    [[YDLoginViewModel shared].subject subscribeNext:^(id  _Nullable x) {
+        YDLogInfo(@"HomeVC logout----- %@", x);
+    }];
 }
 
 - (void)oppenHiddenFunctionVC {
@@ -47,27 +49,7 @@
 }
 
 - (void)userLoginAction {
-    [YDUserService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
-            
-    }];
-  
-//    [YDRouter openURL:[YDURLHelper URLWithString:@"ydapp://YDCheckLogin"] withUserInfo:nil finish:^(id result) {
-//        UIViewController *vc = result;
-//        
-//        [self presentViewController:vc animated:YES completion:nil];
-//    }];
-    
-//    [[YDUserService shared] login];
-//
-//    NSLog(@"%@", [[YDUserService shared] user_id]);
-//    [[YDUserService shared] logout];
-//
-//    NSLog(@"%@", [[YDUserService shared] user_id]);
-//    [YDLoginService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
-//        if (isLogin) {
-//            NSLog(@"登录成功");
-//        }
-//    }];
+    [[YDLoginViewModel shared] logout];
 }
 
 

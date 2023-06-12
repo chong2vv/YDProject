@@ -46,6 +46,7 @@
 #import <YDBlockKit/BlocksKit.h>
 #import <YDAlertAction/YDAlert.h>
 #import <YDSafeThread/YDSafeThread.h>
+#import <YDRouter/YDRouter.h>
 
 #endif
 

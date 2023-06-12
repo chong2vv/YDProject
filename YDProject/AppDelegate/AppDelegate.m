@@ -20,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [self becomeEffective];
     //注册推送
     [self registerForRemoteNotifications:application didFinishLaunchingWithOptions:launchOptions];
     

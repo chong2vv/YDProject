@@ -6,7 +6,6 @@
 //
 
 #import "AppDelegate+YDSetupViewController.h"
-#import "YDUserConfig.h"
 
 #import "YDLoginViewController.h"
 #import "YDHomePageViewController.h"
@@ -23,14 +22,10 @@ BOOL const YDAppStartNeedLogin = YES;
     [self configTabVC];
     //根据实际项目配置是否需要初始化就登录
     if (YDAppStartNeedLogin) {
-        [YDLoginService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
-            if (isLogin) {
-                NSLog(@"登录成功");
-            }
-        }];
+        
     }
 /// 根据实际项目选择是否配置登录、退出通知
-//    [self loadUserLoginNotification];
+    [self loadUserLoginNotification];
 
 }
 
@@ -61,9 +56,9 @@ BOOL const YDAppStartNeedLogin = YES;
 
 //登录、登出消息通知处理 看项目配置
 - (void)loadUserLoginNotification {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_userLogin) name:YDUserNotificationUserLogin object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_userLogout) name:YDUserNotificationUserLogout object:nil];
+    [[YDLoginViewModel shared].subject subscribeNext:^(id  _Nullable x) {
+        YDLogInfo(@"AppDelegate logout----- %@", x);
+    }];
 }
 
 - (void)_userLogin {
