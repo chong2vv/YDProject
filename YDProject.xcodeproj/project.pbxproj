@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150213CB2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 150213CA2A3770B40001833D /* YDRouter+YDPushConfig.m */; };
+		150213CC2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 150213CA2A3770B40001833D /* YDRouter+YDPushConfig.m */; };
+		150213CD2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 150213CA2A3770B40001833D /* YDRouter+YDPushConfig.m */; };
 		1568AE002A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
 		1568AE012A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
 		1568AE022A2E2BC700B6ABA0 /* YDSwiftConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568ADFF2A2E2BC700B6ABA0 /* YDSwiftConfig.swift */; };
@@ -259,6 +262,9 @@
 		157E2A762A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
 		157E2A772A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
 		157E2A782A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */; };
+		15D359FF2A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D359FE2A37686C002E0A4D /* YDHiddenFunctionRouter.m */; };
+		15D35A002A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D359FE2A37686C002E0A4D /* YDHiddenFunctionRouter.m */; };
+		15D35A012A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D359FE2A37686C002E0A4D /* YDHiddenFunctionRouter.m */; };
 		501FA7BF665BBA8725B3F00D /* libPods-YDProjectDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6ED85608FC6B9C5941C37 /* libPods-YDProjectDev.a */; };
 		5D567DD971058C12C073300A /* libPods-YDProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D98A094D645D9CF47289E6 /* libPods-YDProject.a */; };
 		DF56CD53FFD69F0127B98DD8 /* libPods-YDProjectPre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBA21C4A20250BBA40F54B /* libPods-YDProjectPre.a */; };
@@ -283,6 +289,8 @@
 
 /* Begin PBXFileReference section */
 		09D98A094D645D9CF47289E6 /* libPods-YDProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150213C92A3770B40001833D /* YDRouter+YDPushConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDRouter+YDPushConfig.h"; sourceTree = "<group>"; };
+		150213CA2A3770B40001833D /* YDRouter+YDPushConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDRouter+YDPushConfig.m"; sourceTree = "<group>"; };
 		1568ADFC2A2E2BC600B6ABA0 /* YDProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		1568ADFD2A2E2BC600B6ABA0 /* YDProjectPre-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProjectPre-Bridging-Header.h"; sourceTree = "<group>"; };
 		1568ADFE2A2E2BC600B6ABA0 /* YDProjectDev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProjectDev-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -465,6 +473,8 @@
 		157E2A702A2DF9CA00A84464 /* YDMediator+YDWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDMediator+YDWeb.h"; sourceTree = "<group>"; };
 		157E2A712A2DF9CA00A84464 /* YDAppWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppWeb.m; sourceTree = "<group>"; };
 		157E2A722A2DF9CA00A84464 /* YDMediator+YDWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDMediator+YDWeb.m"; sourceTree = "<group>"; };
+		15D359FD2A37686C002E0A4D /* YDHiddenFunctionRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionRouter.h; sourceTree = "<group>"; };
+		15D359FE2A37686C002E0A4D /* YDHiddenFunctionRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionRouter.m; sourceTree = "<group>"; };
 		34330F0FDB00081C9709B574 /* Pods-YDProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.debug.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.debug.xcconfig"; sourceTree = "<group>"; };
 		70840FBC284F84DAFFAC33F9 /* Pods-YDProjectDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProjectDev.release.xcconfig"; path = "Target Support Files/Pods-YDProjectDev/Pods-YDProjectDev.release.xcconfig"; sourceTree = "<group>"; };
 		716CC34CB2C213B26F8772A2 /* Pods-YDProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject.release.xcconfig"; path = "Target Support Files/Pods-YDProject/Pods-YDProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -673,6 +683,8 @@
 			children = (
 				157E28AA2A2DE7D900A84464 /* YDRouter+YDRegistConfig.h */,
 				157E28AC2A2DE7D900A84464 /* YDRouter+YDRegistConfig.m */,
+				150213C92A3770B40001833D /* YDRouter+YDPushConfig.h */,
+				150213CA2A3770B40001833D /* YDRouter+YDPushConfig.m */,
 			);
 			path = YDArouter;
 			sourceTree = "<group>";
@@ -1112,6 +1124,7 @@
 		157E29DE2A2DED3700A84464 /* YDHiddenFunction */ = {
 			isa = PBXGroup;
 			children = (
+				15D359FC2A376819002E0A4D /* Router */,
 				157E29DF2A2DED3700A84464 /* VC */,
 				157E29E22A2DED3700A84464 /* VIew */,
 			);
@@ -1241,6 +1254,15 @@
 				157E2A622A2DF76B00A84464 /* CTMediator.m */,
 			);
 			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		15D359FC2A376819002E0A4D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				15D359FD2A37686C002E0A4D /* YDHiddenFunctionRouter.h */,
+				15D359FE2A37686C002E0A4D /* YDHiddenFunctionRouter.m */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		B96A317E055BA4C99AA828AC /* Frameworks */ = {
@@ -1677,6 +1699,7 @@
 				157E2A002A2DED3800A84464 /* YDUser.m in Sources */,
 				157E2A762A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */,
 				157E2A182A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				150213CB2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */,
 				157E2A2D2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E29192A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
 				157E2A472A2DEE0400A84464 /* YDDB.m in Sources */,
@@ -1724,6 +1747,7 @@
 				157E29942A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29462A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
 				157E2A1B2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				15D359FF2A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */,
 				157E2A242A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293A2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);
@@ -1778,6 +1802,7 @@
 				157E2A022A2DED3800A84464 /* YDUser.m in Sources */,
 				157E2A782A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */,
 				157E2A1A2A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				150213CD2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */,
 				157E2A2F2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E291B2A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
 				157E2A492A2DEE0400A84464 /* YDDB.m in Sources */,
@@ -1825,6 +1850,7 @@
 				157E29962A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29482A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
 				157E2A1D2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				15D35A012A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */,
 				157E2A262A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293C2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);
@@ -1862,6 +1888,7 @@
 				157E2A012A2DED3800A84464 /* YDUser.m in Sources */,
 				157E2A772A2DF9CA00A84464 /* YDMediator+YDWeb.m in Sources */,
 				157E2A192A2DED3800A84464 /* YDLaunchScreenViewModel.m in Sources */,
+				150213CC2A3770B40001833D /* YDRouter+YDPushConfig.m in Sources */,
 				157E2A2E2A2DED3800A84464 /* YDMineViewController.m in Sources */,
 				157E291A2A2DE7DA00A84464 /* YDAppCheckUpdateService.m in Sources */,
 				157E2A482A2DEE0400A84464 /* YDDB.m in Sources */,
@@ -1909,6 +1936,7 @@
 				157E29952A2DE7DB00A84464 /* YDPlayerView.m in Sources */,
 				157E29472A2DE7DA00A84464 /* YDWebViewController.m in Sources */,
 				157E2A1C2A2DED3800A84464 /* YDLaunchScreenViewController.m in Sources */,
+				15D35A002A37686C002E0A4D /* YDHiddenFunctionRouter.m in Sources */,
 				157E2A252A2DED3800A84464 /* YDHiddenFunctionViewController.m in Sources */,
 				157E293B2A2DE7DA00A84464 /* UpApiHelper.m in Sources */,
 			);

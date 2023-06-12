@@ -137,7 +137,8 @@
 }
 
 - (NSString *)uid {
-    return [[MMKV defaultMMKV] valueForKey:YDPlistCurrentUserUID];
+    
+    return [[MMKV defaultMMKV] getStringForKey:YDPlistCurrentUserUID];
 }
 
 - (BOOL)isLogin {
@@ -166,6 +167,36 @@
     return NO;
 }
 
++ (RACSignal *)startLogin {
+    return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+        
+        void (^successCallback)(BOOL,NSInteger,NSDictionary *) = ^(BOOL login, NSInteger loginType, NSDictionary *successInfo){
+            
+            if (login) {
+                [subscriber sendCompleted];
+            }else {
+                [subscriber sendError:nil];
+            }
+        };
+        NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+        [params setObject:successCallback forKey:@"successCallback"];
+        NSLog(@"登录params ===== %@",params);
+        // 防止二次弹出登录页面逻辑 -- start
+        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"LoginVCIsShow"] == YES) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"LoginVCIsShow"];
+            });
+            return nil;
+        }
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"LoginVCIsShow"];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"LoginVCIsShow"];
+        });
+        [[YDMediator sharedInstance] startLoginParams:params];
+        return nil;
+    }];
+}
+
 + (void)startLoginWithTypeComplete:(void (^)(BOOL result))completion {
     // 登录成功回调
     void (^successCallback)(BOOL,NSInteger,NSDictionary *) = ^(BOOL login, NSInteger loginType, NSDictionary *successInfo){
@@ -183,6 +214,10 @@
     
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     [params setObject:successCallback forKey:@"successCallback"];
+    [params setObject:@(NO) forKey:@"ischeck"];
+    if ([YDAppDelegate currentVC]) {
+        [params setObject:[YDAppDelegate currentVC] forKey:@"showViewController"];
+    }
     NSLog(@"登录params ===== %@",params);
     // 防止二次弹出登录页面逻辑 -- start
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"LoginVCIsShow"] == YES) {

@@ -29,5 +29,6 @@
 #import "YDConst.h"
 #import "YDDB+YDUser.h"
 #import "YDUser.h"
-
+#import "AppDelegate+YDSetupViewController.h"
+#import "YDRouter+YDPushConfig.h"
 #endif /* YDAppDefine_h */

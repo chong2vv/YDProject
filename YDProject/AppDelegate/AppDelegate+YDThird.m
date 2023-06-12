@@ -17,6 +17,8 @@
     
     [MMKV initializeMMKV:nil];
     
+    [[YDRouter sharedInstance] configSetScheme:[@"YDProject" lowercaseString]];
+    [YDRouter setup];
     
     //开启预下载
     [YDPreLoaderManager startProxy];

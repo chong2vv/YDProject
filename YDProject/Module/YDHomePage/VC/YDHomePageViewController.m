@@ -27,10 +27,8 @@
 - (void)oppenHiddenFunctionVC {
     [self.navigationController.navigationBar whenFiveTapped:^{
         yd_dispatch_async_main_safe(^{
-            YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
+            [YDRouter openHiddenFunction];
             YDLogInfo(@"==== 进入隐藏功能 ====");
-            NSLog(@"隐藏功能");
         });
     }];
 }
@@ -49,7 +47,10 @@
 }
 
 - (void)userLoginAction {
-    [[YDLoginViewModel shared] logout];
+//    [[YDLoginViewModel shared] logout];
+    if([YDLoginViewModel checkAndLoginWithTypeComplete:nil]) {
+        
+    }
 }
 
 
