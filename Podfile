@@ -32,7 +32,7 @@ def sharePods
   pod 'ZFPlayer/ijkplayer', '~> 4.0.2'
   pod 'ZFPlayer/AVPlayer', '~> 4.0.2'
   #js桥接库
-  pod 'WebViewJavascriptBridge', '~> 6.0'
+  pod 'WebViewJavascriptBridge', :git => 'https://github.com/chong2vv/WebViewJavascriptBridge.git'
   #网络库，log可以考虑使用这个上传，可以根据自己项目来
   pod "WHCNetWorkKit", "~> 0.0.3"
   #解压库
@@ -55,7 +55,7 @@ def sharePods
   #YDKit
   #防崩溃、日志、安全线程库
   pod 'YDSafeThread', '~> 0.1.0'
-  pod 'YDPreventCrash', '~> 0.2.1'
+  pod 'YDPreventCrash', '~> 0.2.2'
   pod 'YDLogger', '~> 0.2.1'
   pod 'YDMonitor', '~> 0.1.0' 
   #工具类
