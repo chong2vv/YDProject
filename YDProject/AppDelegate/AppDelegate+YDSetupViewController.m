@@ -20,12 +20,13 @@ BOOL const YDAppStartNeedLogin = YES;
 
 - (void)configRootVC:(UIApplication *)application {
     [self configTabVC];
-    //根据实际项目配置是否需要初始化就登录
-    if (YDAppStartNeedLogin) {
-        
-    }
-/// 根据实际项目选择是否配置登录、退出通知
-    [self loadUserLoginNotification];
+    ///根据实际项目配置是否需要初始化就登录
+//    if (YDAppStartNeedLogin) {
+//        
+//    }
+    
+    /// 根据实际项目选择是否配置登录、退出通知
+//    [self loadUserLoginNotification];
 
 }
 
@@ -56,7 +57,7 @@ BOOL const YDAppStartNeedLogin = YES;
 
 //登录、登出消息通知处理 看项目配置
 - (void)loadUserLoginNotification {
-    [[YDLoginViewModel shared].subject subscribeNext:^(id  _Nullable x) {
+    [[YDLoginEngine shared].subject subscribeNext:^(id  _Nullable x) {
         YDLogInfo(@"AppDelegate logout----- %@", x);
     }];
 }

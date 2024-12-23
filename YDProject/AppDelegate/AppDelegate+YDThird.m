@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate+YDThird.h"
-
+#import <YDMonitor/YDMonitor.h>
 #import <YDPreLoader/YDPreLoaderManager.h>
 
 @implementation AppDelegate (YDThird)
@@ -22,6 +22,12 @@
     
     //开启预下载
     [YDPreLoaderManager startProxy];
+    
+    [[YDMonitor shared] beginMonitor:^(NSDictionary * _Nonnull info) {
+            YDLogInfo(@"性能监测：%@",info);
+        } cupInfo:^(NSDictionary * _Nonnull info) {
+            YDLogInfo(@"CPU监测：%@",info);
+        }];
 }
 
 @end

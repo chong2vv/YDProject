@@ -8,6 +8,7 @@ def sharePods
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   
+  #pod for objc
   #腾讯bugly
   pod 'Bugly', '2.5.0'
   pod 'Masonry'
@@ -51,6 +52,8 @@ def sharePods
   pod 'FLAnimatedImage', '~> 1.0.17'
   #小红点库
   pod 'WZLBadge'
+  #AztecEditor 富文本编辑
+#  pod 'AztecEditor'
   
   #YDKit
   #防崩溃、日志、安全线程库
@@ -84,6 +87,11 @@ def sharePods
   # Pods for SIMULATOR: , :configurations => 'Release'
   pod 'KSMediaPlayerService', '~> 1.0.4', :configurations => 'Release'
   
+  #pod for swift
+  pod 'HandyJSON', '5.0.4-beta'
+  pod 'SnapKit'
+  pod 'KeychainSwift', '19.0.0'
+  pod 'RxGesture', '3.0.1'
 end
 
 

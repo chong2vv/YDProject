@@ -7,9 +7,8 @@
 
 #import <Foundation/Foundation.h>
 @class YDUser;
-NS_ASSUME_NONNULL_BEGIN
 
-@interface YDLoginViewModel : NSObject
+@interface YDLoginEngine : NSObject
 @property (nonatomic, strong, readonly) RACSubject *subject;
 @property (nonatomic, copy, readonly)NSString *uid;
 @property (nonatomic, assign, readonly) BOOL isLogin;
@@ -30,4 +29,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END

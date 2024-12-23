@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (RACSignal *)selectUserWithUid:(NSString *)uid;
 
 - (RACSignal *)deleteUserWithUid:(NSString *)uid;
+
+- (RACSignal *)selectAllUser;
 @end
 
 NS_ASSUME_NONNULL_END

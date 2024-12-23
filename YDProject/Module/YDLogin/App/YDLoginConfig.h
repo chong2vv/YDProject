@@ -15,6 +15,4 @@ typedef NS_ENUM(NSUInteger, YDLoginSuccessType) {
     YDLoginSuccessTypeForget, // 忘记密码
 };
 
-#define kSuccessCallback @"successCallback"
-
 #endif /* YDLoginConfig_h */

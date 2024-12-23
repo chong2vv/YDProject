@@ -35,6 +35,8 @@
 
 //src
 #import "YDAppDefine.h"
+#import "UIViewController+YDViewControllerFunc.h"
+#import "YDCallBack.h"
 
 //YDFoundation
 #import "YDBaseVC.h"

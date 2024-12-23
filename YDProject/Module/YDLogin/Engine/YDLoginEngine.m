@@ -5,20 +5,20 @@
 //  Created by 王远东 on 2023/6/5.
 //
 
-#import "YDLoginViewModel.h"
+#import "YDLoginEngine.h"
 #import "YDLoginCommand.h"
 #import "YDRegisterCommand.h"
 #import "YDUserInfoUpdateCommand.h"
 #import "YDSendCodeCommand.h"
 #import "YDMediator+YDLogin.h"
 
-@interface YDLoginViewModel ()
+@interface YDLoginEngine ()
 
 @property (nonatomic, copy)NSString *uid;
 @property (nonatomic, strong) RACSubject *subject;
 @end
 
-@implementation YDLoginViewModel
+@implementation YDLoginEngine
 
 + (instancetype)shared {
     static dispatch_once_t onceToken;
@@ -151,7 +151,7 @@
 #pragma mark ------------ 登录检测 ------------
 + (BOOL)checkAndLoginWithTypeComplete:(void (^)(BOOL isLogin))completion {
     
-    if ([YDLoginViewModel shared].isLogin) {
+    if ([YDLoginEngine shared].isLogin) {
         return YES;
     }else {
         // 如果已弹出登录 就不要再次弹出登录
@@ -159,7 +159,7 @@
             return NO;
         }
         
-        [YDLoginViewModel startLoginWithTypeComplete:^(BOOL result) {
+        [YDLoginEngine startLoginWithTypeComplete:^(BOOL result) {
             if (completion) completion(result);
         }];
     }
@@ -204,7 +204,7 @@
             if (completion)  completion(NO);
             return;
         }
-        [[[YDDB shareInstance] selectUserWithUid:[YDLoginViewModel shared].uid] subscribeNext:^(YDUser *x) {
+        [[[YDDB shareInstance] selectUserWithUid:[YDLoginEngine shared].uid] subscribeNext:^(YDUser *x) {
             if (completion)  completion(YES);
         } error:^(NSError * _Nullable error) {
             if (completion)  completion(NO);

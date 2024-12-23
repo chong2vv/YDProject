@@ -7,6 +7,7 @@
 
 import UIKit
 
+@_exported import RxSwift
 class YDSwiftConfig: NSObject {
 
 }

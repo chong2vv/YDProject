@@ -81,7 +81,7 @@
         @strongify(self);
         FMDatabase *db = [FMDatabase databaseWithPath:self.userDBPath];
         if ([db open]) {
-            [db executeUpdate:@"delete from feeditem where uid = ?", uid];
+            [db executeUpdate:@"delete from user where uid = ?", uid];
             [subscriber sendNext:uid];
             [subscriber sendCompleted];
             [db close];
@@ -89,6 +89,39 @@
             YDLogDebug(@"wyd - 删除用户信息失败");
         }
         
+        return nil;
+    }];
+}
+
+//本地读取首页订阅源数据
+- (RACSignal *)selectAllUser {
+    @weakify(self);
+    return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        @strongify(self);
+        FMDatabase *db = [FMDatabase databaseWithPath:self.userDBPath];
+        if ([db open]) {
+            FMResultSet *rs = [db executeQuery:@"select * from user order by uid desc",@(0)];
+            NSUInteger count = 0;
+            NSMutableArray *userArray = [NSMutableArray array];
+            while ([rs next]) {
+                YDUser *user = [[YDUser alloc] init];
+                user.uid = [rs stringForColumn:@"uid"];
+                user.userName = [rs stringForColumn:@"userName"];
+                user.userPic = [rs stringForColumn:@"userPic"];
+                user.userDesc = [rs stringForColumn:@"userDesc"];
+                user.userAccount = [rs stringForColumn:@"userAccount"];
+                user.userPhone = [rs stringForColumn:@"userPhone"];
+                user.userEmail = [rs stringForColumn:@"userEmail"];
+                user.userGender = [rs intForColumn:@"userGender"];
+                user.userBirthday = [rs longLongIntForColumn:@"userBirthday"];
+                user.ext = [rs stringForColumn:@"ext"];
+                [userArray addObject:user];
+                count++;
+            }
+            [subscriber sendNext:userArray];
+            [subscriber sendCompleted];
+            [db close];
+        }
         return nil;
     }];
 }

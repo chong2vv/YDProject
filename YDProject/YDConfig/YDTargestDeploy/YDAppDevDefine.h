@@ -8,6 +8,7 @@
 #ifndef YDAppDevDefine_h
 #define YDAppDevDefine_h
 
+#import "YDProjectDev-Swift.h"
 // api
 #define kYDBaseURLString  @""
 #define kYDDataAcquisitionBaseURLString @""
